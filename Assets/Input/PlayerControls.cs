@@ -892,6 +892,107 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""MinigameKeyHolderControl"",
+            ""id"": ""6453871f-1861-4281-b39c-56704b65a400"",
+            ""actions"": [
+                {
+                    ""name"": ""MoveSelectionNext"",
+                    ""type"": ""Button"",
+                    ""id"": ""f92f45ad-ba02-492a-b637-9ed5ee6323b5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MoveSelectionPrevius"",
+                    ""type"": ""Button"",
+                    ""id"": ""e68fe3ee-6285-49a3-868b-22e981676de4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RotateInteraction"",
+                    ""type"": ""Button"",
+                    ""id"": ""470183b6-0667-4591-abf9-4af3e3d87be9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""e0689b03-7713-41dc-be60-12454c6d675e"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""MoveSelectionNext"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""44c4190b-0c8b-4426-b42c-160927c6a30e"",
+                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""MoveSelectionNext"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5bced11f-a77b-4f9e-9c34-71dfab543aab"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""MoveSelectionPrevius"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e5ba3ea1-7d98-446e-b424-2d99bbff1307"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""MoveSelectionPrevius"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d66f9676-d92c-4fb4-95f3-7b3f9b89ca50"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""RotateInteraction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2c760db1-ed20-475a-9633-5240adfffeda"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""RotateInteraction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -954,6 +1055,11 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_MinigameCloudControl_SelectChoose = m_MinigameCloudControl.FindAction("SelectChoose", throwIfNotFound: true);
         m_MinigameCloudControl_MovePositionRight = m_MinigameCloudControl.FindAction("MovePositionRight", throwIfNotFound: true);
         m_MinigameCloudControl_MovePositionLeft = m_MinigameCloudControl.FindAction("MovePositionLeft", throwIfNotFound: true);
+        // MinigameKeyHolderControl
+        m_MinigameKeyHolderControl = asset.FindActionMap("MinigameKeyHolderControl", throwIfNotFound: true);
+        m_MinigameKeyHolderControl_MoveSelectionNext = m_MinigameKeyHolderControl.FindAction("MoveSelectionNext", throwIfNotFound: true);
+        m_MinigameKeyHolderControl_MoveSelectionPrevius = m_MinigameKeyHolderControl.FindAction("MoveSelectionPrevius", throwIfNotFound: true);
+        m_MinigameKeyHolderControl_RotateInteraction = m_MinigameKeyHolderControl.FindAction("RotateInteraction", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1303,6 +1409,55 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         }
     }
     public MinigameCloudControlActions @MinigameCloudControl => new MinigameCloudControlActions(this);
+
+    // MinigameKeyHolderControl
+    private readonly InputActionMap m_MinigameKeyHolderControl;
+    private IMinigameKeyHolderControlActions m_MinigameKeyHolderControlActionsCallbackInterface;
+    private readonly InputAction m_MinigameKeyHolderControl_MoveSelectionNext;
+    private readonly InputAction m_MinigameKeyHolderControl_MoveSelectionPrevius;
+    private readonly InputAction m_MinigameKeyHolderControl_RotateInteraction;
+    public struct MinigameKeyHolderControlActions
+    {
+        private @PlayerControls m_Wrapper;
+        public MinigameKeyHolderControlActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @MoveSelectionNext => m_Wrapper.m_MinigameKeyHolderControl_MoveSelectionNext;
+        public InputAction @MoveSelectionPrevius => m_Wrapper.m_MinigameKeyHolderControl_MoveSelectionPrevius;
+        public InputAction @RotateInteraction => m_Wrapper.m_MinigameKeyHolderControl_RotateInteraction;
+        public InputActionMap Get() { return m_Wrapper.m_MinigameKeyHolderControl; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MinigameKeyHolderControlActions set) { return set.Get(); }
+        public void SetCallbacks(IMinigameKeyHolderControlActions instance)
+        {
+            if (m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface != null)
+            {
+                @MoveSelectionNext.started -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnMoveSelectionNext;
+                @MoveSelectionNext.performed -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnMoveSelectionNext;
+                @MoveSelectionNext.canceled -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnMoveSelectionNext;
+                @MoveSelectionPrevius.started -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnMoveSelectionPrevius;
+                @MoveSelectionPrevius.performed -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnMoveSelectionPrevius;
+                @MoveSelectionPrevius.canceled -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnMoveSelectionPrevius;
+                @RotateInteraction.started -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnRotateInteraction;
+                @RotateInteraction.performed -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnRotateInteraction;
+                @RotateInteraction.canceled -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnRotateInteraction;
+            }
+            m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @MoveSelectionNext.started += instance.OnMoveSelectionNext;
+                @MoveSelectionNext.performed += instance.OnMoveSelectionNext;
+                @MoveSelectionNext.canceled += instance.OnMoveSelectionNext;
+                @MoveSelectionPrevius.started += instance.OnMoveSelectionPrevius;
+                @MoveSelectionPrevius.performed += instance.OnMoveSelectionPrevius;
+                @MoveSelectionPrevius.canceled += instance.OnMoveSelectionPrevius;
+                @RotateInteraction.started += instance.OnRotateInteraction;
+                @RotateInteraction.performed += instance.OnRotateInteraction;
+                @RotateInteraction.canceled += instance.OnRotateInteraction;
+            }
+        }
+    }
+    public MinigameKeyHolderControlActions @MinigameKeyHolderControl => new MinigameKeyHolderControlActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -1356,5 +1511,11 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnSelectChoose(InputAction.CallbackContext context);
         void OnMovePositionRight(InputAction.CallbackContext context);
         void OnMovePositionLeft(InputAction.CallbackContext context);
+    }
+    public interface IMinigameKeyHolderControlActions
+    {
+        void OnMoveSelectionNext(InputAction.CallbackContext context);
+        void OnMoveSelectionPrevius(InputAction.CallbackContext context);
+        void OnRotateInteraction(InputAction.CallbackContext context);
     }
 }

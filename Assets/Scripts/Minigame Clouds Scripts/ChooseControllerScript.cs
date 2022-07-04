@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ChooseControllerScript : MonoBehaviour
+public class ChooseControllerScript : IMinigame
 {
     public GameObject[] chooseObjects;
 
@@ -27,6 +27,7 @@ public class ChooseControllerScript : MonoBehaviour
         {
             Debug.Log("NEW CLOUD");
         }
+
     }
 
     public void OnMovePositionRight()
