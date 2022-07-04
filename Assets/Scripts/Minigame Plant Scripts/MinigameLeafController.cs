@@ -2,12 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MinigameLeafController : MonoBehaviour
+public class MinigameLeafController : IMinigame
 {
-    LineRenderer line;
+    public EyeScript eye;
+    public HandScripts hand;
+    public bool isWatching;
+    public bool endMinigame;
+
+
+
+    private static MinigameLeafController _instance;
+
+    public static MinigameLeafController Instance
+    {
+        get
+        {
+            return _instance;
+        }
+    }
 
     private void Update()
     {
-        
+        isWatching = eye.isWatching;
+
+        if (isWatching && hand.inMovement)
+        {
+            endMinigame = true;
+        }
+
+        if (!GameObject.FindObjectOfType<LeafScripts>())
+        {
+            endMinigame = true;
+        }
+
+        if (endMinigame)
+        {
+            //GameOver
+            ExitMinigame();
+        }
     }
 }

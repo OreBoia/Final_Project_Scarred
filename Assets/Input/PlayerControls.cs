@@ -259,15 +259,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Release"",
-                    ""type"": ""Button"",
-                    ""id"": ""99446c16-9ee9-42b4-be53-1df53eb9c039"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -385,7 +376,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""8a051e3d-fe6d-4b05-b758-bd1fa95a5b5b"",
                     ""path"": ""<Keyboard>/space"",
-                    ""interactions"": ""Press"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Tear"",
@@ -402,15 +393,171 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Tear"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""MinigameAlarmMedicineControl"",
+            ""id"": ""6f0ab978-d790-4b8c-86e9-06d05cab3f65"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""50467c6c-15c5-4b42-958d-3a495bc38796"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Release"",
+                    ""type"": ""Button"",
+                    ""id"": ""58c90286-3a41-468f-8b0f-8f112e764e0f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Grab"",
+                    ""type"": ""Button"",
+                    ""id"": ""753c878f-8256-4ae5-b9e3-7f78c2a00b0e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""0eeda465-d328-4d68-b62a-6942f592d305"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""ca7c0468-9e8e-49bb-8be1-860a83fad481"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""788b7ff2-a56a-42c6-9651-818a21a90a7e"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""a9c4905e-fe45-495b-bec5-11444f66f5f3"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""ebeb4caa-0582-4a9d-bbba-88b3d6666cbb"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Analogico"",
+                    ""id"": ""e6ddeae3-73ed-483e-aca3-ef2c8832bdec"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""fea1d438-35ef-4d22-8153-02a01c419653"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""2c154d27-703d-42ca-b96b-1fe153d37f6e"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""136e6f11-19d5-4708-a898-6a11f67b2597"",
+                    ""path"": ""<Gamepad>/leftStick/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""9ce4b164-ba0b-4ccc-a927-41fa07cd851f"",
+                    ""path"": ""<Gamepad>/leftStick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": """",
-                    ""id"": ""59cb7df4-9036-44ee-bc50-14f68138a663"",
+                    ""id"": ""80c36bf1-4cb5-41af-abcd-a2d29b66594c"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Release"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e28df73f-fa1f-41c2-a91a-9301fc056490"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Grab"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -790,7 +937,11 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_MinigameLeafControl = asset.FindActionMap("MinigameLeafControl", throwIfNotFound: true);
         m_MinigameLeafControl_Move = m_MinigameLeafControl.FindAction("Move", throwIfNotFound: true);
         m_MinigameLeafControl_Tear = m_MinigameLeafControl.FindAction("Tear", throwIfNotFound: true);
-        m_MinigameLeafControl_Release = m_MinigameLeafControl.FindAction("Release", throwIfNotFound: true);
+        // MinigameAlarmMedicineControl
+        m_MinigameAlarmMedicineControl = asset.FindActionMap("MinigameAlarmMedicineControl", throwIfNotFound: true);
+        m_MinigameAlarmMedicineControl_Move = m_MinigameAlarmMedicineControl.FindAction("Move", throwIfNotFound: true);
+        m_MinigameAlarmMedicineControl_Release = m_MinigameAlarmMedicineControl.FindAction("Release", throwIfNotFound: true);
+        m_MinigameAlarmMedicineControl_Grab = m_MinigameAlarmMedicineControl.FindAction("Grab", throwIfNotFound: true);
         // MinigameCandlesControl
         m_MinigameCandlesControl = asset.FindActionMap("MinigameCandlesControl", throwIfNotFound: true);
         m_MinigameCandlesControl_SelectCandle = m_MinigameCandlesControl.FindAction("SelectCandle", throwIfNotFound: true);
@@ -954,14 +1105,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private IMinigameLeafControlActions m_MinigameLeafControlActionsCallbackInterface;
     private readonly InputAction m_MinigameLeafControl_Move;
     private readonly InputAction m_MinigameLeafControl_Tear;
-    private readonly InputAction m_MinigameLeafControl_Release;
     public struct MinigameLeafControlActions
     {
         private @PlayerControls m_Wrapper;
         public MinigameLeafControlActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_MinigameLeafControl_Move;
         public InputAction @Tear => m_Wrapper.m_MinigameLeafControl_Tear;
-        public InputAction @Release => m_Wrapper.m_MinigameLeafControl_Release;
         public InputActionMap Get() { return m_Wrapper.m_MinigameLeafControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -977,9 +1126,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Tear.started -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnTear;
                 @Tear.performed -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnTear;
                 @Tear.canceled -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnTear;
-                @Release.started -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnRelease;
-                @Release.performed -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnRelease;
-                @Release.canceled -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnRelease;
             }
             m_Wrapper.m_MinigameLeafControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -990,13 +1136,59 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Tear.started += instance.OnTear;
                 @Tear.performed += instance.OnTear;
                 @Tear.canceled += instance.OnTear;
-                @Release.started += instance.OnRelease;
-                @Release.performed += instance.OnRelease;
-                @Release.canceled += instance.OnRelease;
             }
         }
     }
     public MinigameLeafControlActions @MinigameLeafControl => new MinigameLeafControlActions(this);
+
+    // MinigameAlarmMedicineControl
+    private readonly InputActionMap m_MinigameAlarmMedicineControl;
+    private IMinigameAlarmMedicineControlActions m_MinigameAlarmMedicineControlActionsCallbackInterface;
+    private readonly InputAction m_MinigameAlarmMedicineControl_Move;
+    private readonly InputAction m_MinigameAlarmMedicineControl_Release;
+    private readonly InputAction m_MinigameAlarmMedicineControl_Grab;
+    public struct MinigameAlarmMedicineControlActions
+    {
+        private @PlayerControls m_Wrapper;
+        public MinigameAlarmMedicineControlActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_MinigameAlarmMedicineControl_Move;
+        public InputAction @Release => m_Wrapper.m_MinigameAlarmMedicineControl_Release;
+        public InputAction @Grab => m_Wrapper.m_MinigameAlarmMedicineControl_Grab;
+        public InputActionMap Get() { return m_Wrapper.m_MinigameAlarmMedicineControl; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MinigameAlarmMedicineControlActions set) { return set.Get(); }
+        public void SetCallbacks(IMinigameAlarmMedicineControlActions instance)
+        {
+            if (m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface != null)
+            {
+                @Move.started -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnMove;
+                @Release.started -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnRelease;
+                @Release.performed -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnRelease;
+                @Release.canceled -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnRelease;
+                @Grab.started -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnGrab;
+                @Grab.performed -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnGrab;
+                @Grab.canceled -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnGrab;
+            }
+            m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
+                @Release.started += instance.OnRelease;
+                @Release.performed += instance.OnRelease;
+                @Release.canceled += instance.OnRelease;
+                @Grab.started += instance.OnGrab;
+                @Grab.performed += instance.OnGrab;
+                @Grab.canceled += instance.OnGrab;
+            }
+        }
+    }
+    public MinigameAlarmMedicineControlActions @MinigameAlarmMedicineControl => new MinigameAlarmMedicineControlActions(this);
 
     // MinigameCandlesControl
     private readonly InputActionMap m_MinigameCandlesControl;
@@ -1144,7 +1336,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnTear(InputAction.CallbackContext context);
+    }
+    public interface IMinigameAlarmMedicineControlActions
+    {
+        void OnMove(InputAction.CallbackContext context);
         void OnRelease(InputAction.CallbackContext context);
+        void OnGrab(InputAction.CallbackContext context);
     }
     public interface IMinigameCandlesControlActions
     {

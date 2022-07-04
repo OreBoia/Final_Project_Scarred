@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174479748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.947094, y: -0.28674412, z: -10}
+  m_LocalPosition: {x: 24.222366, y: -0.28674412, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3604,7 +3604,7 @@ PrefabInstance:
       objectReference: {fileID: 109372613}
     - target: {fileID: 6707746549251137131, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_Name
-      value: MinigameCandles
+      value: MinigameCandlesTest
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137131, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_IsActive
