@@ -10,4 +10,8 @@ public class IMinigame : MonoBehaviour
             PlayerScript.Instance.eventObj.minigameObj);
     }
 
+    private void OnPause()
+    {
+        GameController.Instance.OnPause();
+    }
 }

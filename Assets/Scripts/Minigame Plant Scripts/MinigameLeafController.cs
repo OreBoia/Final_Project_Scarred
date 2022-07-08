@@ -9,8 +9,6 @@ public class MinigameLeafController : IMinigame
     public bool isWatching;
     public bool endMinigame;
 
-
-
     private static MinigameLeafController _instance;
 
     public static MinigameLeafController Instance

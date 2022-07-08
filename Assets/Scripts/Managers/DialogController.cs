@@ -53,7 +53,7 @@ public class DialogController : MonoBehaviour
     {
         _instance = this;
         dialogStatus = DialagoStatus.Init;
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this.gameObject);
     }
 
     private void Start()

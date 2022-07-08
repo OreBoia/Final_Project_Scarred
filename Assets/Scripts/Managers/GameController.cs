@@ -14,6 +14,8 @@ public class GameController : MonoBehaviour
 
     public bool canExit = false;
 
+    public GameObject pauseCanvasObj;
+
     private static GameController _instance;
 
     public static GameController Instance
@@ -56,5 +58,25 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
         canExit = false;
+    }
+
+    public void OnPause()
+    {
+        //GameObject playerToDeactivate;
+
+        if (pauseCanvasObj.activeSelf)
+        {
+            pauseCanvasObj.SetActive(false);
+            PlayerScript.Instance.gameObject.GetComponent<PlayerInput>().enabled = true;
+            //playerToDeactivate = FindObjectOfType<PlayerInput>().gameObject;
+            //playerToDeactivate.GetComponent<PlayerInput>().enabled = true;
+        }
+        else if(!pauseCanvasObj.activeSelf)
+        {
+            PlayerScript.Instance.gameObject.GetComponent<PlayerInput>().enabled = false;
+            //playerToDeactivate = FindObjectOfType<PlayerInput>().gameObject;
+            //playerToDeactivate.GetComponent<PlayerInput>().enabled = false;
+            pauseCanvasObj.SetActive(true);
+        }
     }
 }

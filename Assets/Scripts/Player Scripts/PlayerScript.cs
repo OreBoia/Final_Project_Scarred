@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerScript : MonoBehaviour
+public class PlayerScript : IPauseCommand
 {
     public GameObject door;
     public GameObject leftBubblePos;
@@ -40,4 +40,6 @@ public class PlayerScript : MonoBehaviour
         //    eventObj.SwitchCam();
         //}
     }
+
+    
 }

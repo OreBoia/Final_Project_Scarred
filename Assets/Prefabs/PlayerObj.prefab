@@ -407,8 +407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1698f4b084856164ea8c08090747eb2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementVector: {x: 0, y: 0}
   speed: 0.12
-  scheme: 
+  inMovement: 0
 --- !u!1 &7978662902528527728
 GameObject:
   m_ObjectHideFlags: 0
