@@ -1768,6 +1768,14 @@ PrefabInstance:
       propertyPath: dialogAsset
       value: 
       objectReference: {fileID: 11400000, guid: 4e0e5fd790cd6d14783b3317b0ebe03c, type: 2}
+    - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
+      propertyPath: newSceneName
+      value: LVL2Strada
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
+      propertyPath: isChangeSceneDoor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137131, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_Name
       value: DialogoFinaleGatto

@@ -1411,7 +1411,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: e2cb33a3b401b0a45a7824f45916d8cf, type: 2}
     - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: newSceneName
-      value: MondoDistorto
+      value: LVL2MondoDistorto
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: isChangeSceneDoor
@@ -2142,8 +2142,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093090985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.4, y: -0.0896, z: 0}
-  m_LocalScale: {x: 2.3914883, y: 21.578873, z: 1}
+  m_LocalPosition: {x: 41.5793, y: -0.0896, z: 0}
+  m_LocalScale: {x: 2.0331526, y: 21.578873, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9

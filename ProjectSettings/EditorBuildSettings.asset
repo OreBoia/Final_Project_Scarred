@@ -11,6 +11,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneEva/LVL1MondoDistorto.unity
     guid: 23d47f18510c2fb4eba8c3346f0062a8
+  - enabled: 1
+    path: Assets/Scenes/SceneEva/LVL1StudioPsi.unity
+    guid: 5d652c11dd955044190f7beca9b25f90
+  - enabled: 1
+    path: Assets/Scenes/SceneEva/LVL2Bosco.unity
+    guid: 26685b7a12b6f4b4b8511048324ee3a5
+  - enabled: 1
+    path: Assets/Scenes/SceneEva/LVL2CasaJason.unity
+    guid: 0d9f2176e28fcd54fbb29fabaa5e478f
+  - enabled: 1
+    path: Assets/Scenes/SceneEva/LVL2MondoDistorto.unity
+    guid: 724a7c812b2946548b7cd0151e737c4b
+  - enabled: 1
+    path: Assets/Scenes/SceneEva/LVL2Strada.unity
+    guid: d94446373c27f5f4a8bb0ce41a7813a2
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: c066d7f4fb55ddc47a5263572473dffa, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3bd0ee5b66e4a0342b32d9ffe4ec9037, type: 2}

@@ -24,7 +24,6 @@ public class PlayerScript : IPauseCommand
     private void Start()
     {
         _instance = this;
-        //Debug.Log(Interaction.jason_idle.ToString());
     }
 
     public void OnEventInteraction()
@@ -34,12 +33,5 @@ public class PlayerScript : IPauseCommand
             door.GetComponent<DoorScript>().Open();
             door = null;
         }
-
-        //if (eventObj != null)
-        //{
-        //    eventObj.SwitchCam();
-        //}
-    }
-
-    
+    } 
 }

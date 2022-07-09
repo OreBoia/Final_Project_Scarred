@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
     {
         _instance = this;
         DontDestroyOnLoad(this);
+        DontDestroyOnLoad(pauseCanvasObj);
     }
 
     public void ReturnToNormalCam(GameObject minigameCamera, GameObject minigameObj)

@@ -1375,6 +1375,14 @@ PrefabInstance:
       propertyPath: dialogAsset
       value: 
       objectReference: {fileID: 11400000, guid: 4e1d40fbda1b2b34b87ee23ed0006776, type: 2}
+    - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
+      propertyPath: newSceneName
+      value: LVL2CasaJason
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
+      propertyPath: isChangeSceneDoor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137131, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_Name
       value: Radura
