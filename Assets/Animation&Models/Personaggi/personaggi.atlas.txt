@@ -1,0 +1,155 @@
+personaggi.png
+size:2886,2629
+filter:Linear,Linear
+pma:true
+Finn Bianco Occhi
+bounds:2085,19,231,135
+offsets:1499,2303,2482,3510
+rotate:90
+Finn Boca A
+bounds:1079,336,92,63
+offsets:1557,2211,2482,3510
+Finn Bocca
+bounds:2262,55,98,39
+offsets:1554,2226,2482,3510
+rotate:90
+Finn Bocca D
+bounds:1079,278,93,56
+offsets:1559,2222,2482,3510
+Finn Bocca O
+bounds:2361,79,64,49
+offsets:1556,2223,2482,3510
+rotate:90
+Finn Braccio Dx
+bounds:1823,199,260,908
+offsets:1380,1263,2482,3510
+Finn Braccio Sx
+bounds:2098,1624,288,1003
+offsets:1883,1196,2482,3510
+Finn Maglietta
+bounds:2388,1701,332,926
+offsets:1555,1316,2482,3510
+Finn Occhi
+bounds:537,1447,178,46
+offsets:1495,2355,2482,3510
+Finn Pantaloni
+bounds:1103,1581,594,1046
+offsets:1518,365,2482,3510
+Finn Petto
+bounds:2,1431,533,1196
+offsets:1513,1271,2482,3510
+Finn Piede Dx
+bounds:758,107,319,287
+offsets:1416,197,2482,3510
+Finn Piede Sx
+bounds:2437,29,316,283
+offsets:1782,183,2482,3510
+Finn Sopracciglia
+bounds:411,123,258,30
+offsets:1486,2416,2482,3510
+Finn Testa
+bounds:2444,1228,410,471
+offsets:1483,2154,2482,3510
+bianco occhi
+bounds:2,10,240,106
+offsets:2,1,244,108
+bocca
+bounds:475,2,99,42
+bocca A
+bounds:2755,31,98,51
+bocca V
+bounds:2262,155,97,51
+bocca o
+bounds:2388,1631,68,50
+rotate:90
+braccio dxx
+bounds:2722,1849,156,778
+braccio sx
+bounds:2272,351,177,788
+capelli sopra
+bounds:2451,771,455,403
+rotate:90
+collanine
+bounds:2272,208,141,163
+rotate:90
+corpo
+bounds:1699,1622,397,1005
+felpa sx
+bounds:2236,1141,206,481
+gamba dx
+bounds:758,396,211,1097
+gamba sx
+bounds:971,401,211,1092
+k Bocca
+bounds:671,106,76,47
+offsets:1469,2068,2482,3510
+k Bocca a
+bounds:1103,1497,82,67
+offsets:1464,2058,2482,3510
+rotate:90
+k Bocca d
+bounds:2303,78,75,56
+offsets:1468,2061,2482,3510
+rotate:90
+k Bocca o
+bounds:2361,145,62,61
+offsets:1467,2061,2482,3510
+k Braccio Dx
+bounds:2085,252,185,855
+offsets:1362,1125,2482,3510
+k Braccio Sx
+bounds:1184,895,684,574
+offsets:1257,1406,2482,3510
+rotate:90
+k Capelli
+bounds:1184,245,637,648
+offsets:1292,1990,2482,3510
+k Collanina
+bounds:1751,4,193,297
+offsets:1528,1759,2482,3510
+rotate:90
+k Corpo
+bounds:537,1495,564,1132
+offsets:1337,1026,2482,3510
+k Gamba Dx
+bounds:2,118,407,1311
+offsets:1334,159,2482,3510
+k Gamba Sx
+bounds:411,155,345,1274
+offsets:1581,169,2482,3510
+k Occhi
+bounds:1760,940,167,49
+offsets:1418,2183,2482,3510
+rotate:90
+k Sopracciglia
+bounds:2222,27,223,38
+offsets:1417,2246,2482,3510
+rotate:90
+k Testa
+bounds:1760,1109,511,474
+offsets:1361,2015,2482,3510
+rotate:90
+k bianco occhi
+bounds:466,46,198,75
+offsets:1419,2165,2482,3510
+mano dx
+bounds:244,39,77,220
+offsets:0,0,79,220
+rotate:90
+mano sx
+bounds:2755,84,90,228
+occhi
+bounds:2847,132,180,37
+offsets:0,0,181,37
+rotate:90
+piede dx
+bounds:1079,15,334,228
+piede sx
+bounds:1415,16,334,227
+sopracciglia
+bounds:244,3,229,34
+tazza caffe bar
+bounds:2722,1727,131,120
+offsets:20,7,266,127
+testa
+bounds:2451,314,418,455
