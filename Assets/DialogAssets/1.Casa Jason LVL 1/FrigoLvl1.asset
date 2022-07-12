@@ -15,21 +15,25 @@ MonoBehaviour:
   strings:
   - sentence: " \u2026 empty."
     id: 0
-    emotion: 0
+    interaction: 10
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Of course it\u2019s empty."
     id: 0
-    emotion: 0
+    interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I must\u2019ve forgotten to go to the supermarket\u2026"
     id: 0
-    emotion: 0
+    interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "again\u2026"
     id: 0
-    emotion: 0
+    interaction: 11
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

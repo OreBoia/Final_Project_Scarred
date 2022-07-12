@@ -15,21 +15,25 @@ MonoBehaviour:
   strings:
   - sentence: Good morning.
     id: 0
-    emotion: 0
+    interaction: 7
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Today is a great day, isn\u2019t it?"
     id: 0
-    emotion: 0
+    interaction: 7
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Good morning.
     id: 9
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Yes, it really is.
     id: 9
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

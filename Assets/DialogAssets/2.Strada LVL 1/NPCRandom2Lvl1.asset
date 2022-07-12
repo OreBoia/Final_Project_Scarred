@@ -15,16 +15,19 @@ MonoBehaviour:
   strings:
   - sentence: Today I totally feel like talking to people.
     id: 0
-    emotion: 0
+    interaction: 2
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: ...
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Yeah, even I wouldn\u2019t believe me."
     id: 0
-    emotion: 0
+    interaction: 3
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

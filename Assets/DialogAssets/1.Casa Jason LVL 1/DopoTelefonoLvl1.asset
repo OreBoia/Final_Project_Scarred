@@ -15,11 +15,13 @@ MonoBehaviour:
   strings:
   - sentence: Oh right, I forgot about it.
     id: 0
-    emotion: 0
+    interaction: 8
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "It\u2019s today."
     id: 0
-    emotion: 0
+    interaction: 8
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

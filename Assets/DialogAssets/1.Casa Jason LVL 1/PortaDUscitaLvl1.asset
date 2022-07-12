@@ -15,13 +15,13 @@ MonoBehaviour:
   strings:
   - sentence: "Wait\u2026"
     id: 0
-    emotion: 0
+    interaction: 8
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: 'without some caffeine I refuse to go out! '
     id: 0
-    emotion: 0
+    interaction: 8
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1

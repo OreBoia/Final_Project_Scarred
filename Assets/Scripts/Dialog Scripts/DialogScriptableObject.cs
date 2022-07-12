@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Interaction 
-{ 
+public enum Interaction { 
     jason_idle, 
     jason_idle_arrabbiato, 
     jason_idle_felice, 
     jason_idle_triste, 
     jason_int, 
-    jason_int_annoiato, 
+    jason_int_annoiato,
+    jason_int_arrabbiato,
     jason_int_felice,
     jason_int_pensieroso,
     jason_int_seduto,
