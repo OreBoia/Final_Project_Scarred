@@ -3491,6 +3491,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 639015296798053225, guid: 7e87a0ad54adacf4e86752c0a745fc9b, type: 3}
+      propertyPath: _animationName
+      value: jason_seduto_su
+      objectReference: {fileID: 0}
     - target: {fileID: 6133407527595042113, guid: 7e87a0ad54adacf4e86752c0a745fc9b, type: 3}
       propertyPath: m_Name
       value: PlayerObj

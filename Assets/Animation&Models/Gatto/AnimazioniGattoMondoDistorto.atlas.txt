@@ -1,0 +1,209 @@
+
+AnimazioniGattoMondoDistorto.png
+size: 1760,519
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baffi
+  rotate: false
+  xy: 321, 4
+  size: 134, 32
+  orig: 136, 34
+  offset: 1, 1
+  index: -1
+bocca
+  rotate: false
+  xy: 470, 81
+  size: 68, 38
+  orig: 70, 40
+  offset: 1, 1
+  index: -1
+coda
+  rotate: false
+  xy: 2, 121
+  size: 539, 96
+  orig: 540, 96
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: false
+  xy: 2, 219
+  size: 618, 298
+  orig: 618, 298
+  offset: 0, 0
+  index: -1
+mandibola
+  rotate: false
+  xy: 321, 38
+  size: 147, 81
+  orig: 147, 81
+  offset: 0, 0
+  index: -1
+occhi
+  rotate: false
+  xy: 1080, 14
+  size: 96, 65
+  orig: 99, 67
+  offset: 2, 1
+  index: -1
+occhiarrabbiati
+  rotate: false
+  xy: 1456, 57
+  size: 95, 62
+  orig: 96, 62
+  offset: 1, 0
+  index: -1
+occhifelici
+  rotate: false
+  xy: 1258, 166
+  size: 92, 59
+  orig: 92, 59
+  offset: 0, 0
+  index: -1
+occhio corpo
+  rotate: false
+  xy: 1470, 125
+  size: 46, 56
+  orig: 48, 58
+  offset: 1, 1
+  index: -1
+occhitristi
+  rotate: false
+  xy: 1258, 98
+  size: 96, 66
+  orig: 97, 66
+  offset: 1, 0
+  index: -1
+ombra sotto occhio
+  rotate: false
+  xy: 543, 39
+  size: 99, 178
+  orig: 101, 180
+  offset: 1, 1
+  index: -1
+orecchio dx
+  rotate: false
+  xy: 1173, 104
+  size: 83, 121
+  orig: 85, 123
+  offset: 1, 1
+  index: -1
+orecchio sx
+  rotate: false
+  xy: 1080, 81
+  size: 91, 144
+  orig: 93, 146
+  offset: 1, 1
+  index: -1
+pelo corpo
+  rotate: false
+  xy: 2, 18
+  size: 317, 101
+  orig: 317, 101
+  offset: 0, 0
+  index: -1
+pelo corpo davanti
+  rotate: false
+  xy: 1353, 183
+  size: 202, 334
+  orig: 202, 334
+  offset: 0, 0
+  index: -1
+pupilla occhio corpo
+  rotate: false
+  xy: 622, 232
+  size: 10, 32
+  orig: 12, 34
+  offset: 1, 1
+  index: -1
+testa
+  rotate: false
+  xy: 622, 266
+  size: 299, 251
+  orig: 299, 251
+  offset: 0, 0
+  index: -1
+zampa davanti dx
+  rotate: false
+  xy: 1557, 35
+  size: 200, 240
+  orig: 202, 240
+  offset: 2, 0
+  index: -1
+zampa davanti dx 2
+  rotate: false
+  xy: 890, 38
+  size: 93, 187
+  orig: 93, 193
+  offset: 0, 1
+  index: -1
+zampa davanti dx 3
+  rotate: false
+  xy: 644, 2
+  size: 111, 58
+  orig: 112, 58
+  offset: 0, 0
+  index: -1
+zampa davanti sx
+  rotate: false
+  xy: 1557, 277
+  size: 201, 240
+  orig: 202, 240
+  offset: 1, 0
+  index: -1
+zampa davanti sx 2
+  rotate: false
+  xy: 985, 34
+  size: 93, 191
+  orig: 94, 192
+  offset: 0, 1
+  index: -1
+zampa davanti sx 3
+  rotate: false
+  xy: 1356, 121
+  size: 112, 60
+  orig: 112, 61
+  offset: 0, 1
+  index: -1
+zampa dietro dx
+  rotate: false
+  xy: 923, 227
+  size: 213, 290
+  orig: 220, 304
+  offset: 0, 14
+  index: -1
+zampa dietro dx 2
+  rotate: false
+  xy: 644, 62
+  size: 121, 202
+  orig: 121, 202
+  offset: 0, 0
+  index: -1
+zampa dietro dx 3
+  rotate: false
+  xy: 767, 7
+  size: 96, 54
+  orig: 97, 54
+  offset: 0, 0
+  index: -1
+zampa dietro sx
+  rotate: false
+  xy: 1138, 227
+  size: 213, 290
+  orig: 213, 290
+  offset: 0, 0
+  index: -1
+zampa dietro sx 2
+  rotate: false
+  xy: 767, 63
+  size: 121, 201
+  orig: 121, 201
+  offset: 0, 0
+  index: -1
+zampa dietro sx 3
+  rotate: false
+  xy: 1356, 63
+  size: 98, 56
+  orig: 98, 56
+  offset: 0, 0
+  index: -1
