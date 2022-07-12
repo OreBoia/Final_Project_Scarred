@@ -6,7 +6,20 @@ public class IMinigame : MonoBehaviour
 {
     public void ExitMinigame()
     {
-        GameController.Instance.ReturnToNormalCam(PlayerScript.Instance.eventObj.minigameCamera, 
+        if (PlayerScript.Instance.eventObj != null)
+        {
+            GameController.Instance.ReturnToNormalCam(PlayerScript.Instance.eventObj.minigameCamera,
+            PlayerScript.Instance.eventObj.minigameObj);
+
+            GameController.Instance.ReduceCanExitCounter();
+
+            Destroy(PlayerScript.Instance.eventObj.gameObject);
+        } 
+    }
+
+    public void OnReturnToPlayer()
+    {
+        GameController.Instance.ReturnToNormalCam(PlayerScript.Instance.eventObj.minigameCamera,
             PlayerScript.Instance.eventObj.minigameObj);
     }
 

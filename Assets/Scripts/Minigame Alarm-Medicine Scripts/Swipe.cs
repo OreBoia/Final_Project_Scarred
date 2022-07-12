@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class Swipe : MonoBehaviour
 {
+    BoxCollider2D[] colliderList;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         EndMinigame swipeDone = collision.gameObject.GetComponent<EndMinigame>();
 
         if (swipeDone != null)
         {
-            GetComponent<BoxCollider2D>().enabled = false;
-
-            this.transform.parent = MinigameAlarmController.Instance.transform;
-
             MinigameAlarmController.Instance.ExitMinigame();
         }
     }

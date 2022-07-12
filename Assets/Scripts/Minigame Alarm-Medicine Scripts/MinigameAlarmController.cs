@@ -13,4 +13,9 @@ public class MinigameAlarmController : IMinigame
             return _instance;
         }
     }
+
+    private void Start()
+    {
+        _instance = this;
+    }
 }

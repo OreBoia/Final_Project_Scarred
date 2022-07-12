@@ -7,6 +7,7 @@ public class DoorScript : MonoBehaviour
     PolygonCollider2D doorCollider;
     SpriteRenderer sp;
     public float RotY;
+    public GameObject intIcon;
 
     public void Open()
     {
@@ -14,8 +15,10 @@ public class DoorScript : MonoBehaviour
         sp = GetComponent<SpriteRenderer>();
 
         doorCollider.enabled = false;
-        this.gameObject.transform.parent.transform.rotation = new Quaternion(0f, RotY, 0f, 0f);
+        this.gameObject.transform.parent.transform.rotation = 
+            new Quaternion(0f, RotY, 0f, 0f);
 
+        Destroy(intIcon);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,6 +28,7 @@ public class DoorScript : MonoBehaviour
         if (player != null)
         {
             player.door = this.gameObject;
+            intIcon.SetActive(true);
         }
     }
 
@@ -35,6 +39,7 @@ public class DoorScript : MonoBehaviour
         if (player != null && player.door != null)
         {
             player.door = null;
+            intIcon.SetActive(false);
         }
     }
 }

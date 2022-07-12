@@ -38,7 +38,7 @@ public class EventScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerScript p = collision.gameObject.GetComponent<PlayerScript>();
+        PlayerEventCheck p = collision.gameObject.GetComponent<PlayerEventCheck>();
 
         if (p != null)
         {
@@ -48,7 +48,7 @@ public class EventScript : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        PlayerScript p = collision.gameObject.GetComponent<PlayerScript>();
+        PlayerEventCheck p = collision.gameObject.GetComponent<PlayerEventCheck>();
 
         if (p != null)
         {

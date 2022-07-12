@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a765dc5fb9933f648923769c023d258d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogAsset: {fileID: 11400000, guid: 2ee659e909ec2614db018d1f9bdd0638, type: 2}
+  dialogAsset: {fileID: 11400000, guid: 04a825be1337f504c84814a8878e6a90, type: 2}
   setPoint: {fileID: 1142302812629378403}
   isMiniGame: 0
   isChangeSceneDoor: 0
@@ -113,7 +113,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.525
+  m_Radius: 0.84
 --- !u!212 &6707746549251137135
 SpriteRenderer:
   m_ObjectHideFlags: 0

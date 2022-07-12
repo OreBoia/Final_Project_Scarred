@@ -277,6 +277,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnToPlayer",
+                    "type": "Button",
+                    "id": "fe3ee026-df12-4f9f-bdd9-bf8f3d02d99b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -433,6 +442,28 @@
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80c22eee-3306-4d71-b19b-62c2858b6e8a",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69ec9797-ad91-4539-9e96-20a805048ed1",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -471,6 +502,15 @@
                     "name": "Pause",
                     "type": "Button",
                     "id": "8005218b-baf4-4b23-adc8-fec3de7600ca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnToPlayer",
+                    "type": "Button",
+                    "id": "1f4283ab-9c91-416b-a7cd-4ba50144271e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -631,6 +671,28 @@
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b56779e1-4a87-43bf-b0c6-fb0a44a79759",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcd01525-98e1-4eb2-8d7b-a0f54a1a0a8f",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -687,6 +749,15 @@
                     "name": "Pause",
                     "type": "Button",
                     "id": "60f2ba4f-6b72-4aa2-97f8-993d57bb39a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnToPlayer",
+                    "type": "Button",
+                    "id": "9d1cd465-6790-45d1-9a09-49f4f33f86c1",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -869,6 +940,28 @@
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc095a8a-84ee-456c-8885-35711b6c191b",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ceabab4-eaef-4268-994c-a84b8f0b885f",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -907,6 +1000,15 @@
                     "name": "Pause",
                     "type": "Button",
                     "id": "f7d4f9c1-0bd7-4101-91af-8c3ea4365e6a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnToPlayer",
+                    "type": "Button",
+                    "id": "9f66dc9f-5d6e-4e89-8dc7-2a56cdbd93d1",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1023,6 +1125,28 @@
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "178ff623-7efd-49dd-b9ea-6c0762c2920f",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c95c24db-64e3-4502-9f53-01eca6fcfc78",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -1061,6 +1185,15 @@
                     "name": "Pause",
                     "type": "Button",
                     "id": "fa5b99cb-819c-43aa-b721-fa53f310f9ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnToPlayer",
+                    "type": "Button",
+                    "id": "e146c923-ee01-4ab9-829c-67c0f0077288",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1153,6 +1286,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7019312d-2248-44b7-be57-4b19dd1f9bfd",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ReturnToPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d2fc5ae-541b-4bed-89b3-ea6176144062",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ReturnToPlayer",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

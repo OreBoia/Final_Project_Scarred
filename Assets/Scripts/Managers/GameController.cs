@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     public GameObject defaultCamera;
 
     public bool canExit = false;
+    public int canExitCounter;
 
     public GameObject pauseCanvasObj;
 
@@ -79,5 +80,20 @@ public class GameController : MonoBehaviour
             //playerToDeactivate.GetComponent<PlayerInput>().enabled = false;
             pauseCanvasObj.SetActive(true);
         }
+    }
+
+    public void ReduceCanExitCounter()
+    {
+        canExitCounter--;
+
+        if (canExitCounter <= 0)
+        {
+            canExit = true;
+        }
+    }
+
+    public void SetCanExitCounter(int count)
+    {
+        canExitCounter = count;
     }
 }

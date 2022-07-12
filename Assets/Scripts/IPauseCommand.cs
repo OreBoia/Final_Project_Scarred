@@ -8,4 +8,10 @@ public abstract class IPauseCommand : MonoBehaviour
     {
         GameController.Instance.OnPause();
     }
+
+    public void OnReturnToPlayer()
+    {
+        GameController.Instance.ReturnToNormalCam(PlayerScript.Instance.eventObj.minigameCamera,
+            PlayerScript.Instance.eventObj.minigameObj);
+    }
 }

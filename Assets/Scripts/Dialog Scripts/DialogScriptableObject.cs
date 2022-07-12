@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Interaction { 
+public enum Interaction 
+{ 
     jason_idle, 
     jason_idle_arrabbiato, 
     jason_idle_felice, 

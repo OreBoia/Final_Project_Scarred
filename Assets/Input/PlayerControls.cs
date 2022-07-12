@@ -299,6 +299,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ReturnToPlayer"",
+                    ""type"": ""Button"",
+                    ""id"": ""fe3ee026-df12-4f9f-bdd9-bf8f3d02d99b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -455,6 +464,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""80c22eee-3306-4d71-b19b-62c2858b6e8a"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""69ec9797-ad91-4539-9e96-20a805048ed1"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -493,6 +524,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""8005218b-baf4-4b23-adc8-fec3de7600ca"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ReturnToPlayer"",
+                    ""type"": ""Button"",
+                    ""id"": ""1f4283ab-9c91-416b-a7cd-4ba50144271e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -653,6 +693,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b56779e1-4a87-43bf-b0c6-fb0a44a79759"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fcd01525-98e1-4eb2-8d7b-a0f54a1a0a8f"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -709,6 +771,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""60f2ba4f-6b72-4aa2-97f8-993d57bb39a8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ReturnToPlayer"",
+                    ""type"": ""Button"",
+                    ""id"": ""9d1cd465-6790-45d1-9a09-49f4f33f86c1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -891,6 +962,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cc095a8a-84ee-456c-8885-35711b6c191b"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6ceabab4-eaef-4268-994c-a84b8f0b885f"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -929,6 +1022,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""f7d4f9c1-0bd7-4101-91af-8c3ea4365e6a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ReturnToPlayer"",
+                    ""type"": ""Button"",
+                    ""id"": ""9f66dc9f-5d6e-4e89-8dc7-2a56cdbd93d1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -1045,6 +1147,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""178ff623-7efd-49dd-b9ea-6c0762c2920f"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c95c24db-64e3-4502-9f53-01eca6fcfc78"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -1083,6 +1207,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""fa5b99cb-819c-43aa-b721-fa53f310f9ab"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ReturnToPlayer"",
+                    ""type"": ""Button"",
+                    ""id"": ""e146c923-ee01-4ab9-829c-67c0f0077288"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -1175,6 +1308,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7019312d-2248-44b7-be57-4b19dd1f9bfd"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""ReturnToPlayer"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6d2fc5ae-541b-4bed-89b3-ea6176144062"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""ReturnToPlayer"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1404,12 +1559,14 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_MinigameLeafControl_Move = m_MinigameLeafControl.FindAction("Move", throwIfNotFound: true);
         m_MinigameLeafControl_Tear = m_MinigameLeafControl.FindAction("Tear", throwIfNotFound: true);
         m_MinigameLeafControl_Pause = m_MinigameLeafControl.FindAction("Pause", throwIfNotFound: true);
+        m_MinigameLeafControl_ReturnToPlayer = m_MinigameLeafControl.FindAction("ReturnToPlayer", throwIfNotFound: true);
         // MinigameAlarmMedicineControl
         m_MinigameAlarmMedicineControl = asset.FindActionMap("MinigameAlarmMedicineControl", throwIfNotFound: true);
         m_MinigameAlarmMedicineControl_Move = m_MinigameAlarmMedicineControl.FindAction("Move", throwIfNotFound: true);
         m_MinigameAlarmMedicineControl_Release = m_MinigameAlarmMedicineControl.FindAction("Release", throwIfNotFound: true);
         m_MinigameAlarmMedicineControl_Grab = m_MinigameAlarmMedicineControl.FindAction("Grab", throwIfNotFound: true);
         m_MinigameAlarmMedicineControl_Pause = m_MinigameAlarmMedicineControl.FindAction("Pause", throwIfNotFound: true);
+        m_MinigameAlarmMedicineControl_ReturnToPlayer = m_MinigameAlarmMedicineControl.FindAction("ReturnToPlayer", throwIfNotFound: true);
         // MinigameCandlesControl
         m_MinigameCandlesControl = asset.FindActionMap("MinigameCandlesControl", throwIfNotFound: true);
         m_MinigameCandlesControl_SelectCandle = m_MinigameCandlesControl.FindAction("SelectCandle", throwIfNotFound: true);
@@ -1418,18 +1575,21 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_MinigameCandlesControl_MovePositionLeft = m_MinigameCandlesControl.FindAction("MovePositionLeft", throwIfNotFound: true);
         m_MinigameCandlesControl_MovePositionRight = m_MinigameCandlesControl.FindAction("MovePositionRight", throwIfNotFound: true);
         m_MinigameCandlesControl_Pause = m_MinigameCandlesControl.FindAction("Pause", throwIfNotFound: true);
+        m_MinigameCandlesControl_ReturnToPlayer = m_MinigameCandlesControl.FindAction("ReturnToPlayer", throwIfNotFound: true);
         // MinigameCloudControl
         m_MinigameCloudControl = asset.FindActionMap("MinigameCloudControl", throwIfNotFound: true);
         m_MinigameCloudControl_SelectChoose = m_MinigameCloudControl.FindAction("SelectChoose", throwIfNotFound: true);
         m_MinigameCloudControl_MovePositionRight = m_MinigameCloudControl.FindAction("MovePositionRight", throwIfNotFound: true);
         m_MinigameCloudControl_MovePositionLeft = m_MinigameCloudControl.FindAction("MovePositionLeft", throwIfNotFound: true);
         m_MinigameCloudControl_Pause = m_MinigameCloudControl.FindAction("Pause", throwIfNotFound: true);
+        m_MinigameCloudControl_ReturnToPlayer = m_MinigameCloudControl.FindAction("ReturnToPlayer", throwIfNotFound: true);
         // MinigameKeyHolderControl
         m_MinigameKeyHolderControl = asset.FindActionMap("MinigameKeyHolderControl", throwIfNotFound: true);
         m_MinigameKeyHolderControl_MoveSelectionNext = m_MinigameKeyHolderControl.FindAction("MoveSelectionNext", throwIfNotFound: true);
         m_MinigameKeyHolderControl_MoveSelectionPrevius = m_MinigameKeyHolderControl.FindAction("MoveSelectionPrevius", throwIfNotFound: true);
         m_MinigameKeyHolderControl_RotateInteraction = m_MinigameKeyHolderControl.FindAction("RotateInteraction", throwIfNotFound: true);
         m_MinigameKeyHolderControl_Pause = m_MinigameKeyHolderControl.FindAction("Pause", throwIfNotFound: true);
+        m_MinigameKeyHolderControl_ReturnToPlayer = m_MinigameKeyHolderControl.FindAction("ReturnToPlayer", throwIfNotFound: true);
         // PauseController
         m_PauseController = asset.FindActionMap("PauseController", throwIfNotFound: true);
         m_PauseController_Pause = m_PauseController.FindAction("Pause", throwIfNotFound: true);
@@ -1595,6 +1755,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_MinigameLeafControl_Move;
     private readonly InputAction m_MinigameLeafControl_Tear;
     private readonly InputAction m_MinigameLeafControl_Pause;
+    private readonly InputAction m_MinigameLeafControl_ReturnToPlayer;
     public struct MinigameLeafControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -1602,6 +1763,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_MinigameLeafControl_Move;
         public InputAction @Tear => m_Wrapper.m_MinigameLeafControl_Tear;
         public InputAction @Pause => m_Wrapper.m_MinigameLeafControl_Pause;
+        public InputAction @ReturnToPlayer => m_Wrapper.m_MinigameLeafControl_ReturnToPlayer;
         public InputActionMap Get() { return m_Wrapper.m_MinigameLeafControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1620,6 +1782,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnPause;
+                @ReturnToPlayer.started -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.performed -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.canceled -= m_Wrapper.m_MinigameLeafControlActionsCallbackInterface.OnReturnToPlayer;
             }
             m_Wrapper.m_MinigameLeafControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -1633,6 +1798,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
+                @ReturnToPlayer.started += instance.OnReturnToPlayer;
+                @ReturnToPlayer.performed += instance.OnReturnToPlayer;
+                @ReturnToPlayer.canceled += instance.OnReturnToPlayer;
             }
         }
     }
@@ -1645,6 +1813,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_MinigameAlarmMedicineControl_Release;
     private readonly InputAction m_MinigameAlarmMedicineControl_Grab;
     private readonly InputAction m_MinigameAlarmMedicineControl_Pause;
+    private readonly InputAction m_MinigameAlarmMedicineControl_ReturnToPlayer;
     public struct MinigameAlarmMedicineControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -1653,6 +1822,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @Release => m_Wrapper.m_MinigameAlarmMedicineControl_Release;
         public InputAction @Grab => m_Wrapper.m_MinigameAlarmMedicineControl_Grab;
         public InputAction @Pause => m_Wrapper.m_MinigameAlarmMedicineControl_Pause;
+        public InputAction @ReturnToPlayer => m_Wrapper.m_MinigameAlarmMedicineControl_ReturnToPlayer;
         public InputActionMap Get() { return m_Wrapper.m_MinigameAlarmMedicineControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1674,6 +1844,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnPause;
+                @ReturnToPlayer.started -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.performed -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.canceled -= m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface.OnReturnToPlayer;
             }
             m_Wrapper.m_MinigameAlarmMedicineControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -1690,6 +1863,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
+                @ReturnToPlayer.started += instance.OnReturnToPlayer;
+                @ReturnToPlayer.performed += instance.OnReturnToPlayer;
+                @ReturnToPlayer.canceled += instance.OnReturnToPlayer;
             }
         }
     }
@@ -1704,6 +1880,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_MinigameCandlesControl_MovePositionLeft;
     private readonly InputAction m_MinigameCandlesControl_MovePositionRight;
     private readonly InputAction m_MinigameCandlesControl_Pause;
+    private readonly InputAction m_MinigameCandlesControl_ReturnToPlayer;
     public struct MinigameCandlesControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -1714,6 +1891,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @MovePositionLeft => m_Wrapper.m_MinigameCandlesControl_MovePositionLeft;
         public InputAction @MovePositionRight => m_Wrapper.m_MinigameCandlesControl_MovePositionRight;
         public InputAction @Pause => m_Wrapper.m_MinigameCandlesControl_Pause;
+        public InputAction @ReturnToPlayer => m_Wrapper.m_MinigameCandlesControl_ReturnToPlayer;
         public InputActionMap Get() { return m_Wrapper.m_MinigameCandlesControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1741,6 +1919,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started -= m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface.OnPause;
+                @ReturnToPlayer.started -= m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.performed -= m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.canceled -= m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface.OnReturnToPlayer;
             }
             m_Wrapper.m_MinigameCandlesControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -1763,6 +1944,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
+                @ReturnToPlayer.started += instance.OnReturnToPlayer;
+                @ReturnToPlayer.performed += instance.OnReturnToPlayer;
+                @ReturnToPlayer.canceled += instance.OnReturnToPlayer;
             }
         }
     }
@@ -1775,6 +1959,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_MinigameCloudControl_MovePositionRight;
     private readonly InputAction m_MinigameCloudControl_MovePositionLeft;
     private readonly InputAction m_MinigameCloudControl_Pause;
+    private readonly InputAction m_MinigameCloudControl_ReturnToPlayer;
     public struct MinigameCloudControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -1783,6 +1968,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @MovePositionRight => m_Wrapper.m_MinigameCloudControl_MovePositionRight;
         public InputAction @MovePositionLeft => m_Wrapper.m_MinigameCloudControl_MovePositionLeft;
         public InputAction @Pause => m_Wrapper.m_MinigameCloudControl_Pause;
+        public InputAction @ReturnToPlayer => m_Wrapper.m_MinigameCloudControl_ReturnToPlayer;
         public InputActionMap Get() { return m_Wrapper.m_MinigameCloudControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1804,6 +1990,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started -= m_Wrapper.m_MinigameCloudControlActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_MinigameCloudControlActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_MinigameCloudControlActionsCallbackInterface.OnPause;
+                @ReturnToPlayer.started -= m_Wrapper.m_MinigameCloudControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.performed -= m_Wrapper.m_MinigameCloudControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.canceled -= m_Wrapper.m_MinigameCloudControlActionsCallbackInterface.OnReturnToPlayer;
             }
             m_Wrapper.m_MinigameCloudControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -1820,6 +2009,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
+                @ReturnToPlayer.started += instance.OnReturnToPlayer;
+                @ReturnToPlayer.performed += instance.OnReturnToPlayer;
+                @ReturnToPlayer.canceled += instance.OnReturnToPlayer;
             }
         }
     }
@@ -1832,6 +2024,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_MinigameKeyHolderControl_MoveSelectionPrevius;
     private readonly InputAction m_MinigameKeyHolderControl_RotateInteraction;
     private readonly InputAction m_MinigameKeyHolderControl_Pause;
+    private readonly InputAction m_MinigameKeyHolderControl_ReturnToPlayer;
     public struct MinigameKeyHolderControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -1840,6 +2033,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @MoveSelectionPrevius => m_Wrapper.m_MinigameKeyHolderControl_MoveSelectionPrevius;
         public InputAction @RotateInteraction => m_Wrapper.m_MinigameKeyHolderControl_RotateInteraction;
         public InputAction @Pause => m_Wrapper.m_MinigameKeyHolderControl_Pause;
+        public InputAction @ReturnToPlayer => m_Wrapper.m_MinigameKeyHolderControl_ReturnToPlayer;
         public InputActionMap Get() { return m_Wrapper.m_MinigameKeyHolderControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1861,6 +2055,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnPause;
+                @ReturnToPlayer.started -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.performed -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnReturnToPlayer;
+                @ReturnToPlayer.canceled -= m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface.OnReturnToPlayer;
             }
             m_Wrapper.m_MinigameKeyHolderControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -1877,6 +2074,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
+                @ReturnToPlayer.started += instance.OnReturnToPlayer;
+                @ReturnToPlayer.performed += instance.OnReturnToPlayer;
+                @ReturnToPlayer.canceled += instance.OnReturnToPlayer;
             }
         }
     }
@@ -1965,6 +2165,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnTear(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnReturnToPlayer(InputAction.CallbackContext context);
     }
     public interface IMinigameAlarmMedicineControlActions
     {
@@ -1972,6 +2173,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnRelease(InputAction.CallbackContext context);
         void OnGrab(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnReturnToPlayer(InputAction.CallbackContext context);
     }
     public interface IMinigameCandlesControlActions
     {
@@ -1981,6 +2183,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnMovePositionLeft(InputAction.CallbackContext context);
         void OnMovePositionRight(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnReturnToPlayer(InputAction.CallbackContext context);
     }
     public interface IMinigameCloudControlActions
     {
@@ -1988,6 +2191,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnMovePositionRight(InputAction.CallbackContext context);
         void OnMovePositionLeft(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnReturnToPlayer(InputAction.CallbackContext context);
     }
     public interface IMinigameKeyHolderControlActions
     {
@@ -1995,6 +2199,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnMoveSelectionPrevius(InputAction.CallbackContext context);
         void OnRotateInteraction(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnReturnToPlayer(InputAction.CallbackContext context);
     }
     public interface IPauseControllerActions
     {

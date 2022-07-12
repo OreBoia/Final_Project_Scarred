@@ -4,68 +4,61 @@ using UnityEngine;
 
 public class HandAlarmScripts : IMovement
 {
-    public Paper paperGrabed;
+    //public Paper paperGrabed;
     BoxCollider2D handCollider;
+    Rigidbody2D rbHand;
+    bool raycast;
+    public RaycastHit raycastHitInfo;
 
     private void Awake()
     {
         handCollider = GetComponent<BoxCollider2D>();
+        rbHand = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
         MovePlayer();
 
-        if (paperGrabed != null)
-        {
-            
-        }
-        else
-        {
-            
-        }
     }
 
     private void OnGrab()
     {
         Debug.Log("GRAB");
 
-        if (paperGrabed != null)
-        {
-            paperGrabed.gameObject.transform.parent =
-                this.gameObject.transform;
+        Ray ray = new Ray(this.gameObject.transform.position + new Vector3(0, 3.5f, 0),
+            new Vector3(0, 0, 1));
 
-            handCollider.enabled = false;
+        raycast = Physics.Raycast(ray, out raycastHitInfo, Mathf.Infinity);
+
+        Debug.Log(raycastHitInfo.collider);
+
+        if (raycastHitInfo.collider != null)
+        {
+            if (raycastHitInfo.collider.gameObject.GetComponent<Paper>() ||
+            raycastHitInfo.collider.gameObject.GetComponent<Swipe>())
+            {
+                raycastHitInfo.collider.gameObject.transform.parent =
+                     this.gameObject.transform;
+            }
         }
     }
 
     private void OnRelease()
     {
         Debug.Log("RELEASE");
-        Debug.Log("PAPER CHILD: " + GetComponentInChildren<Paper>().gameObject);
+        //Debug.Log("PAPER CHILD: " + GetComponentInChildren<Paper>().gameObject);
 
-        
-        GetComponentInChildren<Paper>().gameObject.transform.parent = 
-            this.gameObject.transform.parent;
-        //paperGrabed.gameObject.transform.parent = this.gameObject.transform.parent;
-        paperGrabed = null;
-        handCollider.enabled = true;
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Paper paper = collision.GetComponent<Paper>();
-
-        if (paper != null /*&& paperGrabed == null*/)
+        if (GetComponentInChildren<Paper>() )
         {
-            paperGrabed = paper;
+            GetComponentInChildren<Paper>().gameObject.transform.parent = 
+                        this.gameObject.transform.parent;
         }
-    }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //paperGrabed.gameObject.transform.parent = this.gameObject.transform.parent;
-        paperGrabed = null;   
+        if (GetComponentInChildren<Swipe>())
+        {
+            GetComponentInChildren<Swipe>().gameObject.transform.parent =
+                        this.gameObject.transform.parent;
+        }
     }
 }
