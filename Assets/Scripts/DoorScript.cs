@@ -7,18 +7,41 @@ public class DoorScript : MonoBehaviour
     PolygonCollider2D doorCollider;
     SpriteRenderer sp;
     public float RotY;
+
     public GameObject intIcon;
+    //public GameObject collider;
+
+    public bool isLocked;
 
     public void Open()
     {
-        doorCollider = GetComponent<PolygonCollider2D>();
-        sp = GetComponent<SpriteRenderer>();
+        if (isLocked)
+        {
+            if (GameController.Instance.canExit)
+            {
+                doorCollider = GetComponent<PolygonCollider2D>();
+                sp = GetComponent<SpriteRenderer>();
 
-        doorCollider.enabled = false;
-        this.gameObject.transform.parent.transform.rotation = 
-            new Quaternion(0f, RotY, 0f, 0f);
+                doorCollider.enabled = false;
 
-        Destroy(intIcon);
+                this.gameObject.transform.parent.transform.rotation = 
+                    new Quaternion(0f, RotY, 0f, 0f);
+
+                Destroy(intIcon);
+            }
+        }
+        else
+        {
+            doorCollider = GetComponent<PolygonCollider2D>();
+            sp = GetComponent<SpriteRenderer>();
+
+            doorCollider.enabled = false;
+
+            this.gameObject.transform.parent.transform.rotation =
+                new Quaternion(0f, RotY, 0f, 0f);
+
+            Destroy(intIcon);
+        }  
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
