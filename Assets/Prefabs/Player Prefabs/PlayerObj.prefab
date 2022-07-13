@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2812253265100657327}
   - component: {fileID: 4782663981203174499}
   - component: {fileID: 3282037563911314757}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EventCheckObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2821507960191116405}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: LeftBubblePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1243116371204611656}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RightBubblePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4899761120180962904}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 639015296798053231}
   - component: {fileID: 639015296798053225}
   - component: {fileID: 8623120662711442287}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PlayerObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,6 +392,8 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
+  updateTiming: 1
+  unscaledTime: 0
   _animationName: jason_idle
   loop: 1
   timeScale: 1
@@ -410,6 +412,12 @@ MonoBehaviour:
   movementVector: {x: 0, y: 0}
   speed: 0.12
   inMovement: 0
+  walkAnimName: jason_camminata
+  idleAnimName: jason_idle
+  skinDx: verso dx
+  skinSx: verso sx
+  flipValuePos: 1
+  flipValueneg: -1
 --- !u!1 &7978662902528527728
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,7 +428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6478187673658360611}
   - component: {fileID: 3526470067444798142}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DialogBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,6 +499,10 @@ PrefabInstance:
     - target: {fileID: 3803508155776447235, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.0000052452
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803508155776447244, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3803508155853284289, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
       propertyPath: m_Pivot.x
@@ -601,8 +613,16 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 3803508155853284301, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803508155853284301, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803508156560868868, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3803508156560868923, guid: b8b72513c1f84dc4886f4f0adcc998e3, type: 3}
       propertyPath: m_SizeDelta.x

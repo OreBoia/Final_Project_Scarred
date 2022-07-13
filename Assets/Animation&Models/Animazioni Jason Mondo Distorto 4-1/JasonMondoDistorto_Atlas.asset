@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: JasonMondoDistorto_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: eab8ebb6322ee724985c7d0e84d6ab87, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 0f160835d2038324e867c44a5f2a3bf0, type: 2}
+  - {fileID: 2100000, guid: 47161c15916165b48b1f7cfb37ce43a6, type: 2}
+  - {fileID: 2100000, guid: 45744e8ea537f764597aba7bcc6eae84, type: 2}
+  - {fileID: 2100000, guid: eb528daeaa0f8024fb5f083a27318e45, type: 2}

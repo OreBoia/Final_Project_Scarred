@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 4c731d051bb9793418778efb30364180
+  - enabled: 1
     path: Assets/Scenes/SceneEva/LVL1CasaJason.unity
     guid: d37194bdee875854ca3f1b93d26d03d6
   - enabled: 1

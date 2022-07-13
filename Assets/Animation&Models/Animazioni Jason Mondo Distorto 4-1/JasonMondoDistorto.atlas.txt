@@ -1,0 +1,1915 @@
+JasonMondoDistorto.png
+size:2019,2005
+filter:Linear,Linear
+pma:true
+DestraSenzaSpina1/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+DestraSenzaSpina2/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+DestraSenzaSpina3/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+SinistraSenzaSpina1/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+SinistraSenzaSpina2/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+SinistraSenzaSpina3/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+destra/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+sinistra/1 1
+bounds:903,734,441,385
+offsets:1,1,443,387
+DestraSenzaSpina1/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+DestraSenzaSpina2/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+DestraSenzaSpina3/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+SinistraSenzaSpina1/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+SinistraSenzaSpina2/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+SinistraSenzaSpina3/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+destra/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+sinistra/1 2
+bounds:444,855,457,375
+offsets:1,1,459,377
+DestraSenzaSpina1/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+DestraSenzaSpina2/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+DestraSenzaSpina3/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+SinistraSenzaSpina1/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+SinistraSenzaSpina2/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+SinistraSenzaSpina3/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+destra/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+sinistra/1 3
+bounds:2,940,440,374
+offsets:1,1,442,376
+DestraSenzaSpina1/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+DestraSenzaSpina2/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+DestraSenzaSpina3/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+SinistraSenzaSpina1/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+SinistraSenzaSpina2/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+SinistraSenzaSpina3/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+destra/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+sinistra/1 4
+bounds:1024,1121,411,345
+offsets:1,1,413,347
+DestraSenzaSpina1/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+DestraSenzaSpina2/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+DestraSenzaSpina3/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+SinistraSenzaSpina1/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+SinistraSenzaSpina2/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+SinistraSenzaSpina3/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+destra/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+sinistra/1 5
+bounds:100,1625,238,186
+offsets:1,1,240,188
+DestraSenzaSpina1/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+DestraSenzaSpina2/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+DestraSenzaSpina3/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+SinistraSenzaSpina1/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+SinistraSenzaSpina2/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+SinistraSenzaSpina3/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+destra/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+sinistra/1 6
+bounds:1688,1711,241,177
+offsets:1,1,243,179
+DestraSenzaSpina1/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+DestraSenzaSpina2/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+DestraSenzaSpina3/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+SinistraSenzaSpina1/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+SinistraSenzaSpina2/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+SinistraSenzaSpina3/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+destra/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+sinistra/1 7
+bounds:1459,1733,227,160
+offsets:1,1,229,162
+DestraSenzaSpina1/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+DestraSenzaSpina2/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+DestraSenzaSpina3/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+SinistraSenzaSpina1/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+SinistraSenzaSpina2/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+SinistraSenzaSpina3/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+destra/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+sinistra/1 8
+bounds:1249,1901,192,102
+offsets:1,1,194,104
+DestraSenzaSpina1/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+DestraSenzaSpina2/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+DestraSenzaSpina3/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+SinistraSenzaSpina1/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+SinistraSenzaSpina2/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+SinistraSenzaSpina3/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+destra/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+sinistra/2 1
+bounds:2,1352,320,271
+offsets:1,1,322,273
+DestraSenzaSpina1/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+DestraSenzaSpina2/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+DestraSenzaSpina3/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+SinistraSenzaSpina1/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+SinistraSenzaSpina2/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+SinistraSenzaSpina3/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+destra/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+sinistra/2 2
+bounds:1041,1490,304,252
+offsets:1,1,306,254
+DestraSenzaSpina1/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+DestraSenzaSpina2/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+DestraSenzaSpina3/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+SinistraSenzaSpina1/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+SinistraSenzaSpina2/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+SinistraSenzaSpina3/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+destra/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+sinistra/2 3
+bounds:775,1552,264,208
+offsets:1,1,266,210
+DestraSenzaSpina1/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+DestraSenzaSpina2/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+DestraSenzaSpina3/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+SinistraSenzaSpina1/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+SinistraSenzaSpina2/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+SinistraSenzaSpina3/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+destra/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+sinistra/2 4
+bounds:1242,1744,215,155
+offsets:1,1,217,157
+DestraSenzaSpina1/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+DestraSenzaSpina2/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+DestraSenzaSpina3/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+SinistraSenzaSpina1/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+SinistraSenzaSpina2/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+SinistraSenzaSpina3/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+destra/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+sinistra/2 5
+bounds:775,1768,192,141
+offsets:1,1,194,143
+DestraSenzaSpina1/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+DestraSenzaSpina2/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+DestraSenzaSpina3/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+SinistraSenzaSpina1/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+SinistraSenzaSpina2/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+SinistraSenzaSpina3/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+destra/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+sinistra/2 6
+bounds:609,1788,164,137
+offsets:1,1,167,139
+DestraSenzaSpina1/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+DestraSenzaSpina2/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+DestraSenzaSpina3/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+SinistraSenzaSpina1/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+SinistraSenzaSpina2/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+SinistraSenzaSpina3/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+destra/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+sinistra/2 7
+bounds:962,1911,150,92
+offsets:1,1,152,94
+DestraSenzaSpina1/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+DestraSenzaSpina2/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+DestraSenzaSpina3/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+SinistraSenzaSpina1/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+SinistraSenzaSpina2/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+SinistraSenzaSpina3/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+destra/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+sinistra/2 8
+bounds:472,1940,143,63
+offsets:1,1,145,65
+DestraSenzaSpina1/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+DestraSenzaSpina2/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+DestraSenzaSpina3/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+SinistraSenzaSpina1/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+SinistraSenzaSpina2/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+SinistraSenzaSpina3/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+destra/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+sinistra/3 1
+bounds:1478,1899,159,104
+offsets:1,1,161,106
+DestraSenzaSpina1/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+DestraSenzaSpina2/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+DestraSenzaSpina3/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+SinistraSenzaSpina1/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+SinistraSenzaSpina2/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+SinistraSenzaSpina3/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+destra/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+sinistra/3 2
+bounds:1114,1908,133,95
+offsets:1,1,135,97
+DestraSenzaSpina1/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+DestraSenzaSpina2/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+DestraSenzaSpina3/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+SinistraSenzaSpina1/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+SinistraSenzaSpina2/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+SinistraSenzaSpina3/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+destra/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+sinistra/3 3
+bounds:353,1809,127,129
+offsets:1,1,129,131
+DestraSenzaSpina1/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+DestraSenzaSpina2/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+DestraSenzaSpina3/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+SinistraSenzaSpina1/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+SinistraSenzaSpina2/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+SinistraSenzaSpina3/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+destra/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+sinistra/3 4
+bounds:2,1829,127,127
+offsets:1,1,129,129
+DestraSenzaSpina1/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+DestraSenzaSpina2/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+DestraSenzaSpina3/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+SinistraSenzaSpina1/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+SinistraSenzaSpina2/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+SinistraSenzaSpina3/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+destra/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+sinistra/3 5
+bounds:482,1797,125,141
+offsets:1,1,127,143
+DestraSenzaSpina1/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+DestraSenzaSpina2/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+DestraSenzaSpina3/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+SinistraSenzaSpina1/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+SinistraSenzaSpina2/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+SinistraSenzaSpina3/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+destra/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+sinistra/3 6
+bounds:1900,1890,76,113
+offsets:1,1,78,115
+DestraSenzaSpina1/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+DestraSenzaSpina2/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+DestraSenzaSpina3/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+SinistraSenzaSpina1/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+SinistraSenzaSpina2/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+SinistraSenzaSpina3/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+destra/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+sinistra/3 7
+bounds:1443,1901,33,102
+offsets:1,1,35,104
+DestraSenzaSpina1/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+DestraSenzaSpina2/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+DestraSenzaSpina3/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+SinistraSenzaSpina1/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+SinistraSenzaSpina2/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+SinistraSenzaSpina3/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+destra/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+sinistra/3 8
+bounds:931,1920,29,83
+offsets:1,1,31,85
+DestraSenzaSpina1/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+DestraSenzaSpina2/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+DestraSenzaSpina3/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+SinistraSenzaSpina1/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+SinistraSenzaSpina2/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+SinistraSenzaSpina3/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+destra/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+sinistra/4 1
+bounds:1826,443,158,494
+offsets:1,1,160,497
+DestraSenzaSpina1/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+DestraSenzaSpina2/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+DestraSenzaSpina3/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+SinistraSenzaSpina1/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+SinistraSenzaSpina2/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+SinistraSenzaSpina3/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+destra/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+sinistra/4 2
+bounds:1062,233,157,499
+offsets:1,1,159,501
+DestraSenzaSpina1/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+DestraSenzaSpina2/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+DestraSenzaSpina3/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+SinistraSenzaSpina1/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+SinistraSenzaSpina2/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+SinistraSenzaSpina3/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+destra/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+sinistra/4 3
+bounds:1673,453,151,484
+offsets:1,1,153,486
+DestraSenzaSpina1/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+DestraSenzaSpina2/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+DestraSenzaSpina3/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+SinistraSenzaSpina1/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+SinistraSenzaSpina2/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+SinistraSenzaSpina3/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+destra/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+sinistra/4 4
+bounds:1753,939,147,453
+offsets:1,1,149,455
+DestraSenzaSpina1/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+DestraSenzaSpina2/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+DestraSenzaSpina3/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+SinistraSenzaSpina1/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+SinistraSenzaSpina2/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+SinistraSenzaSpina3/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+destra/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+sinistra/4 5
+bounds:1611,1037,140,395
+offsets:1,1,142,397
+DestraSenzaSpina1/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+DestraSenzaSpina2/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+DestraSenzaSpina3/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+SinistraSenzaSpina1/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+SinistraSenzaSpina2/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+SinistraSenzaSpina3/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+destra/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+sinistra/4 6
+bounds:1812,1394,115,315
+offsets:1,1,117,317
+DestraSenzaSpina1/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+DestraSenzaSpina2/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+DestraSenzaSpina3/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+SinistraSenzaSpina1/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+SinistraSenzaSpina2/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+SinistraSenzaSpina3/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+destra/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+sinistra/4 7
+bounds:1347,1468,103,274
+offsets:2,3,106,278
+DestraSenzaSpina1/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+DestraSenzaSpina2/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+DestraSenzaSpina3/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+SinistraSenzaSpina1/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+SinistraSenzaSpina2/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+SinistraSenzaSpina3/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+destra/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+sinistra/4 8
+bounds:1978,1782,37,221
+offsets:1,1,39,223
+DestraSenzaSpina1/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+DestraSenzaSpina2/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+DestraSenzaSpina3/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+SinistraSenzaSpina1/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+SinistraSenzaSpina2/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+SinistraSenzaSpina3/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+destra/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+sinistra/5 1
+bounds:1551,1451,96,280
+offsets:1,1,98,282
+DestraSenzaSpina1/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+DestraSenzaSpina2/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+DestraSenzaSpina3/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+SinistraSenzaSpina1/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+SinistraSenzaSpina2/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+SinistraSenzaSpina3/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+destra/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+sinistra/5 2
+bounds:555,1270,311,280
+offsets:1,1,315,283
+DestraSenzaSpina1/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+DestraSenzaSpina2/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+DestraSenzaSpina3/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+SinistraSenzaSpina1/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+SinistraSenzaSpina2/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+SinistraSenzaSpina3/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+destra/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+sinistra/5 3
+bounds:1452,1456,97,275
+offsets:1,1,99,277
+DestraSenzaSpina1/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+DestraSenzaSpina2/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+DestraSenzaSpina3/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+SinistraSenzaSpina1/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+SinistraSenzaSpina2/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+SinistraSenzaSpina3/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+destra/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+sinistra/5 4
+bounds:1931,1535,86,245
+offsets:1,1,88,247
+DestraSenzaSpina1/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+DestraSenzaSpina2/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+DestraSenzaSpina3/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+SinistraSenzaSpina1/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+SinistraSenzaSpina2/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+SinistraSenzaSpina3/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+destra/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+sinistra/5 5
+bounds:677,1562,96,224
+offsets:1,2,98,227
+DestraSenzaSpina1/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+DestraSenzaSpina2/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+DestraSenzaSpina3/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+SinistraSenzaSpina1/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+SinistraSenzaSpina2/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+SinistraSenzaSpina3/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+destra/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+sinistra/5 6
+bounds:2,1640,96,187
+offsets:1,1,98,190
+DestraSenzaSpina1/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+DestraSenzaSpina2/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+DestraSenzaSpina3/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+SinistraSenzaSpina1/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+SinistraSenzaSpina2/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+SinistraSenzaSpina3/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+destra/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+sinistra/5 7
+bounds:1161,1745,79,161
+offsets:1,1,81,163
+DestraSenzaSpina1/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+DestraSenzaSpina2/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+DestraSenzaSpina3/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+SinistraSenzaSpina1/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+SinistraSenzaSpina2/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+SinistraSenzaSpina3/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+destra/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+sinistra/5 8
+bounds:1639,1895,65,108
+offsets:1,1,67,110
+DestraSenzaSpina1/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+DestraSenzaSpina2/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+DestraSenzaSpina3/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+SinistraSenzaSpina1/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+SinistraSenzaSpina2/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+SinistraSenzaSpina3/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+destra/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+sinistra/braccio dx 1
+bounds:1346,603,151,469
+offsets:0,0,152,488
+DestraSenzaSpina1/braccio dx 2
+bounds:1437,1074,172,375
+DestraSenzaSpina2/braccio dx 2
+bounds:1437,1074,172,375
+DestraSenzaSpina3/braccio dx 2
+bounds:1437,1074,172,375
+SinistraSenzaSpina1/braccio dx 2
+bounds:1437,1074,172,375
+SinistraSenzaSpina2/braccio dx 2
+bounds:1437,1074,172,375
+SinistraSenzaSpina3/braccio dx 2
+bounds:1437,1074,172,375
+destra/braccio dx 2
+bounds:1437,1074,172,375
+sinistra/braccio dx 2
+bounds:1437,1074,172,375
+DestraSenzaSpina1/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+DestraSenzaSpina2/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+DestraSenzaSpina3/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+SinistraSenzaSpina1/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+SinistraSenzaSpina2/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+SinistraSenzaSpina3/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+destra/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+sinistra/braccio sx 1
+bounds:1499,561,172,474
+offsets:1,4,174,479
+DestraSenzaSpina1/braccio sx 2
+bounds:820,246,240,486
+DestraSenzaSpina2/braccio sx 2
+bounds:820,246,240,486
+DestraSenzaSpina3/braccio sx 2
+bounds:820,246,240,486
+SinistraSenzaSpina1/braccio sx 2
+bounds:820,246,240,486
+SinistraSenzaSpina2/braccio sx 2
+bounds:820,246,240,486
+SinistraSenzaSpina3/braccio sx 2
+bounds:820,246,240,486
+destra/braccio sx 2
+bounds:820,246,240,486
+sinistra/braccio sx 2
+bounds:820,246,240,486
+DestraSenzaSpina1/collo
+bounds:324,1316,229,286
+DestraSenzaSpina2/collo
+bounds:324,1316,229,286
+DestraSenzaSpina3/collo
+bounds:324,1316,229,286
+SinistraSenzaSpina1/collo
+bounds:324,1316,229,286
+SinistraSenzaSpina2/collo
+bounds:324,1316,229,286
+SinistraSenzaSpina3/collo
+bounds:324,1316,229,286
+destra/collo
+bounds:324,1316,229,286
+sinistra/collo
+bounds:324,1316,229,286
+DestraSenzaSpina1/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+DestraSenzaSpina2/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+DestraSenzaSpina3/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+SinistraSenzaSpina1/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+SinistraSenzaSpina2/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+SinistraSenzaSpina3/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+destra/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+sinistra/gamba dx 2
+bounds:1221,74,161,527
+offsets:1,44,163,572
+DestraSenzaSpina1/gamba sx 2
+bounds:1384,2,204,557
+DestraSenzaSpina2/gamba sx 2
+bounds:1384,2,204,557
+DestraSenzaSpina3/gamba sx 2
+bounds:1384,2,204,557
+SinistraSenzaSpina1/gamba sx 2
+bounds:1384,2,204,557
+SinistraSenzaSpina2/gamba sx 2
+bounds:1384,2,204,557
+SinistraSenzaSpina3/gamba sx 2
+bounds:1384,2,204,557
+destra/gamba sx 2
+bounds:1384,2,204,557
+sinistra/gamba sx 2
+bounds:1384,2,204,557
+DestraSenzaSpina1/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+DestraSenzaSpina2/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+DestraSenzaSpina3/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+SinistraSenzaSpina1/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+SinistraSenzaSpina2/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+SinistraSenzaSpina3/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+destra/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+sinistra/mano dx
+bounds:559,1567,116,219
+offsets:1,1,118,221
+DestraSenzaSpina1/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+DestraSenzaSpina2/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+DestraSenzaSpina3/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+SinistraSenzaSpina1/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+SinistraSenzaSpina2/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+SinistraSenzaSpina3/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+destra/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+sinistra/mano sx
+bounds:1649,1434,161,275
+offsets:1,1,163,277
+DestraSenzaSpina1/mano sx aperta
+bounds:868,1232,154,318
+DestraSenzaSpina2/mano sx aperta
+bounds:868,1232,154,318
+DestraSenzaSpina3/mano sx aperta
+bounds:868,1232,154,318
+SinistraSenzaSpina1/mano sx aperta
+bounds:868,1232,154,318
+SinistraSenzaSpina2/mano sx aperta
+bounds:868,1232,154,318
+SinistraSenzaSpina3/mano sx aperta
+bounds:868,1232,154,318
+destra/mano sx aperta
+bounds:868,1232,154,318
+sinistra/mano sx aperta
+bounds:868,1232,154,318
+DestraSenzaSpina1/occhi annoiati
+bounds:2,1958,155,45
+DestraSenzaSpina2/occhi annoiati
+bounds:2,1958,155,45
+DestraSenzaSpina3/occhi annoiati
+bounds:2,1958,155,45
+SinistraSenzaSpina1/occhi annoiati
+bounds:2,1958,155,45
+SinistraSenzaSpina2/occhi annoiati
+bounds:2,1958,155,45
+SinistraSenzaSpina3/occhi annoiati
+bounds:2,1958,155,45
+destra/occhi annoiati
+bounds:2,1958,155,45
+sinistra/occhi annoiati
+bounds:2,1958,155,45
+DestraSenzaSpina1/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+DestraSenzaSpina2/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+DestraSenzaSpina3/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+SinistraSenzaSpina1/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+SinistraSenzaSpina2/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+SinistraSenzaSpina3/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+destra/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+sinistra/occhi felici
+bounds:316,1941,154,62
+offsets:0,1,154,63
+DestraSenzaSpina1/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+DestraSenzaSpina2/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+DestraSenzaSpina3/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+SinistraSenzaSpina1/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+SinistraSenzaSpina2/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+SinistraSenzaSpina3/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+destra/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+sinistra/occhi normali
+bounds:159,1942,155,61
+offsets:1,1,157,64
+DestraSenzaSpina1/occhi pensierosi
+bounds:617,1931,155,72
+DestraSenzaSpina2/occhi pensierosi
+bounds:617,1931,155,72
+DestraSenzaSpina3/occhi pensierosi
+bounds:617,1931,155,72
+SinistraSenzaSpina1/occhi pensierosi
+bounds:617,1931,155,72
+SinistraSenzaSpina2/occhi pensierosi
+bounds:617,1931,155,72
+SinistraSenzaSpina3/occhi pensierosi
+bounds:617,1931,155,72
+destra/occhi pensierosi
+bounds:617,1931,155,72
+sinistra/occhi pensierosi
+bounds:617,1931,155,72
+DestraSenzaSpina1/occhi stupiti
+bounds:774,1927,155,76
+DestraSenzaSpina2/occhi stupiti
+bounds:774,1927,155,76
+DestraSenzaSpina3/occhi stupiti
+bounds:774,1927,155,76
+SinistraSenzaSpina1/occhi stupiti
+bounds:774,1927,155,76
+SinistraSenzaSpina2/occhi stupiti
+bounds:774,1927,155,76
+SinistraSenzaSpina3/occhi stupiti
+bounds:774,1927,155,76
+destra/occhi stupiti
+bounds:774,1927,155,76
+sinistra/occhi stupiti
+bounds:774,1927,155,76
+DestraSenzaSpina1/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+DestraSenzaSpina2/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+DestraSenzaSpina3/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+SinistraSenzaSpina1/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+SinistraSenzaSpina2/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+SinistraSenzaSpina3/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+destra/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+sinistra/piede dx 1
+bounds:969,1762,190,144
+offsets:1,2,193,147
+DestraSenzaSpina1/piede dx 2
+bounds:1706,1894,192,109
+DestraSenzaSpina2/piede dx 2
+bounds:1706,1894,192,109
+DestraSenzaSpina3/piede dx 2
+bounds:1706,1894,192,109
+SinistraSenzaSpina1/piede dx 2
+bounds:1706,1894,192,109
+SinistraSenzaSpina2/piede dx 2
+bounds:1706,1894,192,109
+SinistraSenzaSpina3/piede dx 2
+bounds:1706,1894,192,109
+destra/piede dx 2
+bounds:1706,1894,192,109
+sinistra/piede dx 2
+bounds:1706,1894,192,109
+DestraSenzaSpina1/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+DestraSenzaSpina2/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+DestraSenzaSpina3/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+SinistraSenzaSpina1/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+SinistraSenzaSpina2/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+SinistraSenzaSpina3/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+destra/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+sinistra/piede sx 1
+bounds:340,1604,217,191
+offsets:1,0,218,191
+DestraSenzaSpina1/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+DestraSenzaSpina2/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+DestraSenzaSpina3/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+SinistraSenzaSpina1/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+SinistraSenzaSpina2/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+SinistraSenzaSpina3/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+destra/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+sinistra/piede sx 2
+bounds:131,1813,220,126
+offsets:1,0,221,126
+DestraSenzaSpina1/testa dx
+bounds:2,455,406,483
+DestraSenzaSpina1/testa
+bounds:2,455,406,483
+DestraSenzaSpina2/testa
+bounds:2,455,406,483
+DestraSenzaSpina2/testa dx
+bounds:2,455,406,483
+DestraSenzaSpina3/testa
+bounds:2,455,406,483
+DestraSenzaSpina3/testa dx
+bounds:2,455,406,483
+SinistraSenzaSpina1/testa dx
+bounds:2,455,406,483
+SinistraSenzaSpina2/testa dx
+bounds:2,455,406,483
+SinistraSenzaSpina3/testa dx
+bounds:2,455,406,483
+destra/testa
+bounds:2,455,406,483
+destra/testa dx
+bounds:2,455,406,483
+sinistra/testa dx
+bounds:2,455,406,483
+SinistraSenzaSpina1/testa
+bounds:410,368,408,485
+SinistraSenzaSpina2/testa
+bounds:410,368,408,485
+SinistraSenzaSpina3/testa
+bounds:410,368,408,485
+sinistra/testa
+bounds:410,368,408,485
+
+JasonMondoDistorto_2.png
+size:1982,1875
+filter:Linear,Linear
+pma:true
+DestraSenzaSpina1/corpo 1
+bounds:1474,1298,431,575
+DestraSenzaSpina2/corpo 1
+bounds:1474,1298,431,575
+DestraSenzaSpina3/corpo 1
+bounds:1474,1298,431,575
+SinistraSenzaSpina1/corpo 1
+bounds:1474,1298,431,575
+SinistraSenzaSpina2/corpo 1
+bounds:1474,1298,431,575
+SinistraSenzaSpina3/corpo 1
+bounds:1474,1298,431,575
+destra/corpo 1
+bounds:1474,1298,431,575
+sinistra/corpo 1
+bounds:1474,1298,431,575
+DestraSenzaSpina1/corpo 2
+bounds:1461,630,438,666
+DestraSenzaSpina2/corpo 2
+bounds:1461,630,438,666
+DestraSenzaSpina3/corpo 2
+bounds:1461,630,438,666
+SinistraSenzaSpina1/corpo 2
+bounds:1461,630,438,666
+SinistraSenzaSpina2/corpo 2
+bounds:1461,630,438,666
+SinistraSenzaSpina3/corpo 2
+bounds:1461,630,438,666
+destra/corpo 2
+bounds:1461,630,438,666
+sinistra/corpo 2
+bounds:1461,630,438,666
+DestraSenzaSpina1/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+DestraSenzaSpina2/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+DestraSenzaSpina3/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+SinistraSenzaSpina1/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+SinistraSenzaSpina2/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+SinistraSenzaSpina3/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+destra/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+sinistra/frame 12
+bounds:2,1429,635,444
+offsets:1,1,637,446
+DestraSenzaSpina1/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+DestraSenzaSpina2/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+DestraSenzaSpina3/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+SinistraSenzaSpina1/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+SinistraSenzaSpina2/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+SinistraSenzaSpina3/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+destra/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+sinistra/frame 13
+bounds:802,948,657,471
+offsets:1,1,659,473
+DestraSenzaSpina1/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+DestraSenzaSpina2/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+DestraSenzaSpina3/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+SinistraSenzaSpina1/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+SinistraSenzaSpina2/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+SinistraSenzaSpina3/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+destra/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+sinistra/frame 14
+bounds:1277,114,703,514
+offsets:3,1,707,516
+DestraSenzaSpina1/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+DestraSenzaSpina2/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+DestraSenzaSpina3/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+SinistraSenzaSpina1/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+SinistraSenzaSpina2/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+SinistraSenzaSpina3/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+destra/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+sinistra/frame 16
+bounds:2,2,787,494
+offsets:1,2,789,497
+DestraSenzaSpina1/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+DestraSenzaSpina2/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+DestraSenzaSpina3/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+SinistraSenzaSpina1/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+SinistraSenzaSpina2/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+SinistraSenzaSpina3/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+destra/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+sinistra/frame 19
+bounds:2,498,797,467
+offsets:1,1,799,469
+DestraSenzaSpina1/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+DestraSenzaSpina2/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+DestraSenzaSpina3/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+SinistraSenzaSpina1/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+SinistraSenzaSpina2/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+SinistraSenzaSpina3/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+destra/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+sinistra/frame 7
+bounds:639,1421,833,452
+offsets:1,1,835,454
+DestraSenzaSpina1/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+DestraSenzaSpina2/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+DestraSenzaSpina3/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+SinistraSenzaSpina1/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+SinistraSenzaSpina2/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+SinistraSenzaSpina3/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+destra/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+sinistra/frame 8
+bounds:2,967,798,452
+offsets:1,1,800,454
+DestraSenzaSpina1/gamba dx 1
+bounds:801,276,223,670
+DestraSenzaSpina2/gamba dx 1
+bounds:801,276,223,670
+DestraSenzaSpina3/gamba dx 1
+bounds:801,276,223,670
+SinistraSenzaSpina1/gamba dx 1
+bounds:801,276,223,670
+SinistraSenzaSpina2/gamba dx 1
+bounds:801,276,223,670
+SinistraSenzaSpina3/gamba dx 1
+bounds:801,276,223,670
+destra/gamba dx 1
+bounds:801,276,223,670
+sinistra/gamba dx 1
+bounds:801,276,223,670
+DestraSenzaSpina1/gamba sx 1
+bounds:1026,239,249,707
+DestraSenzaSpina2/gamba sx 1
+bounds:1026,239,249,707
+DestraSenzaSpina3/gamba sx 1
+bounds:1026,239,249,707
+SinistraSenzaSpina1/gamba sx 1
+bounds:1026,239,249,707
+SinistraSenzaSpina2/gamba sx 1
+bounds:1026,239,249,707
+SinistraSenzaSpina3/gamba sx 1
+bounds:1026,239,249,707
+destra/gamba sx 1
+bounds:1026,239,249,707
+sinistra/gamba sx 1
+bounds:1026,239,249,707
+
+JasonMondoDistorto_3.png
+size:1774,1988
+filter:Linear,Linear
+pma:true
+DestraSenzaSpina1/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+DestraSenzaSpina2/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+DestraSenzaSpina3/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+SinistraSenzaSpina1/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+SinistraSenzaSpina2/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+SinistraSenzaSpina3/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+destra/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+sinistra/fiamma
+bounds:2,1511,851,475
+offsets:1,2,854,478
+DestraSenzaSpina1/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+DestraSenzaSpina2/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+DestraSenzaSpina3/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+SinistraSenzaSpina1/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+SinistraSenzaSpina2/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+SinistraSenzaSpina3/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+destra/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+sinistra/frame 10
+bounds:2,522,861,498
+offsets:1,1,863,500
+DestraSenzaSpina1/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+DestraSenzaSpina2/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+DestraSenzaSpina3/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+SinistraSenzaSpina1/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+SinistraSenzaSpina2/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+SinistraSenzaSpina3/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+destra/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+sinistra/frame 11
+bounds:865,511,907,504
+offsets:1,2,909,507
+DestraSenzaSpina1/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+DestraSenzaSpina2/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+DestraSenzaSpina3/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+SinistraSenzaSpina1/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+SinistraSenzaSpina2/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+SinistraSenzaSpina3/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+destra/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+sinistra/frame 18
+bounds:855,1511,814,475
+offsets:1,1,816,477
+DestraSenzaSpina1/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+DestraSenzaSpina2/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+DestraSenzaSpina3/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+SinistraSenzaSpina1/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+SinistraSenzaSpina2/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+SinistraSenzaSpina3/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+destra/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+sinistra/frame 2
+bounds:833,2,918,507
+offsets:2,1,921,509
+DestraSenzaSpina1/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+DestraSenzaSpina2/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+DestraSenzaSpina3/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+SinistraSenzaSpina1/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+SinistraSenzaSpina2/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+SinistraSenzaSpina3/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+destra/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+sinistra/frame 4
+bounds:2,1022,894,487
+offsets:1,1,896,489
+DestraSenzaSpina1/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+DestraSenzaSpina2/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+DestraSenzaSpina3/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+SinistraSenzaSpina1/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+SinistraSenzaSpina2/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+SinistraSenzaSpina3/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+destra/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+sinistra/frame 6
+bounds:2,14,829,506
+offsets:1,1,831,508
+DestraSenzaSpina1/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+DestraSenzaSpina2/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+DestraSenzaSpina3/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+SinistraSenzaSpina1/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+SinistraSenzaSpina2/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+SinistraSenzaSpina3/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+destra/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+sinistra/frame 9
+bounds:898,1017,813,492
+offsets:1,1,815,494
+
+JasonMondoDistorto_4.png
+size:1793,1064
+filter:Linear,Linear
+pma:true
+DestraSenzaSpina1/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+DestraSenzaSpina2/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+DestraSenzaSpina3/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+SinistraSenzaSpina1/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+SinistraSenzaSpina2/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+SinistraSenzaSpina3/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+destra/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+sinistra/frame 15
+bounds:993,544,798,518
+offsets:1,1,800,520
+DestraSenzaSpina1/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+DestraSenzaSpina2/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+DestraSenzaSpina3/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+SinistraSenzaSpina1/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+SinistraSenzaSpina2/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+SinistraSenzaSpina3/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+destra/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+sinistra/frame 17
+bounds:858,2,813,524
+offsets:1,1,815,526
+DestraSenzaSpina1/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+DestraSenzaSpina2/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+DestraSenzaSpina3/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+SinistraSenzaSpina1/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+SinistraSenzaSpina2/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+SinistraSenzaSpina3/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+destra/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+sinistra/frame 3
+bounds:2,528,989,534
+offsets:1,1,991,536
+DestraSenzaSpina1/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+DestraSenzaSpina2/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+DestraSenzaSpina3/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+SinistraSenzaSpina1/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+SinistraSenzaSpina2/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+SinistraSenzaSpina3/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+destra/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522
+sinistra/frame 5
+bounds:2,6,854,520
+offsets:1,1,856,522

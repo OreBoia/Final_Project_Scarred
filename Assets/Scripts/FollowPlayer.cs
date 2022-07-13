@@ -1,3 +1,4 @@
+using Spine.Unity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,14 +12,31 @@ public class FollowPlayer : MonoBehaviour
     public float speed;
     public float distanceOffset;
 
+    public string walkAnimName;
+    public string idleAnimName;
+    //public string skinDx;
+    //public string skinSx;
+    public int flipValuePos;
+    public int flipValueneg;
+
+    SkeletonAnimation skelAnim;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         //playerReference = PlayerScript.Instance.gameObject;
+        skelAnim = GetComponent<SkeletonAnimation>();
     }
 
     private void Update()
     {
+        if (playerReference == null)
+        {
+            if (PlayerScript.Instance)
+            {
+                playerReference = PlayerScript.Instance.gameObject;
+            }           
+        }
         Follow();
     }
 
@@ -34,12 +52,32 @@ public class FollowPlayer : MonoBehaviour
             {
                 rb.MovePosition(Vector2.Lerp(rb.position,playerReference.GetComponent<Rigidbody2D>().position -
                 new Vector2(distanceOffset, 0f), speed * Time.deltaTime));
+
+                ChangeAnimation(walkAnimName);
+                //sp.Skeleton.SetSkin(skinSx);
+                skelAnim.Skeleton.ScaleX = flipValuePos;
             }
             else
             {
                 rb.MovePosition(Vector2.Lerp(rb.position, playerReference.GetComponent<Rigidbody2D>().position -
                 new Vector2(distanceOffset*-1, 0f), speed * Time.deltaTime));
+
+                ChangeAnimation(walkAnimName);
+                //sp.Skeleton.SetSkin(skinSx);
+                skelAnim.Skeleton.ScaleX = flipValueneg;
             }
-        } 
+        }
+        else
+        {
+            ChangeAnimation(idleAnimName);
+        }
+    }
+
+    public void ChangeAnimation(string animationName)
+    {
+        if (skelAnim != null)
+        {
+            skelAnim.AnimationName = animationName;
+        }
     }
 }

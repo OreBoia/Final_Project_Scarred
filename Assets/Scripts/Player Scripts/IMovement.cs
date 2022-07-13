@@ -12,6 +12,12 @@ public class IMovement : MonoBehaviour
     public bool inMovement;
     private Rigidbody2D rigidbody2d;
     private SkeletonAnimation sp;
+    public string walkAnimName;
+    public string idleAnimName;
+    public string skinDx;
+    public string skinSx;
+    public int flipValuePos;
+    public int flipValueneg;
 
     PlayerInput playerInput;
 
@@ -31,19 +37,19 @@ public class IMovement : MonoBehaviour
         {
             if (movementVector.x < 0f)
             {
-                ChangeAnimation("jason_camminata");
-                sp.Skeleton.SetSkin("verso sx");
-                sp.Skeleton.ScaleX = -1;
+                ChangeAnimation(walkAnimName);
+                sp.Skeleton.SetSkin(skinSx);
+                sp.Skeleton.ScaleX = flipValueneg;
             }
             else if (movementVector.x > 0f)
             {
-                ChangeAnimation("jason_camminata");
-                sp.Skeleton.SetSkin("verso dx");
-                sp.Skeleton.ScaleX = 1;
+                ChangeAnimation(walkAnimName);
+                sp.Skeleton.SetSkin(skinDx);
+                sp.Skeleton.ScaleX = flipValuePos;
             }
             else if (movementVector.x == 0f)
             {
-                ChangeAnimation("jason_idle");
+                ChangeAnimation(idleAnimName);
             }
 
             sp.Skeleton.SetSlotsToSetupPose();

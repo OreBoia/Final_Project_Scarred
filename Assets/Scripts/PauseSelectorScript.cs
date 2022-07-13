@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PauseSelectorScript : MonoBehaviour
@@ -68,6 +69,9 @@ public class PauseSelectorScript : MonoBehaviour
                 break;
             case "ExitButton":
                 Application.Quit();
+                break;
+            case "StartButton":
+                SceneManager.LoadScene("LVL1CasaJason");
                 break;
         }
     }
