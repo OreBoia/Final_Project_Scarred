@@ -15,226 +15,271 @@ MonoBehaviour:
   strings:
   - sentence: Uh, Bon?
     id: 0
-    emotion: 0
+    interaction: 35
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Again?
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Ugh\u2026"
     id: 2
-    emotion: 0
+    interaction: 44
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Hey Jace.
     id: 1
-    emotion: 0
+    interaction: 52
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: What are you doing here?
     id: 0
-    emotion: 0
+    interaction: 35
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Surely she\u2019s here to talk,"
     id: 2
-    emotion: 0
+    interaction: 43
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "it\u2019s all about that now, right? "
     id: 2
-    emotion: 0
+    interaction: 44
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "But don\u2019t be boring and hurry up."
     id: 2
-    emotion: 0
+    interaction: 44
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I want to talk about that time\u2026"
     id: 1
-    emotion: 0
+    interaction: 53
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "when\u2026"
     id: 1
-    emotion: 0
+    interaction: 54
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: when you were hospitalized.
     id: 1
-    emotion: 0
+    interaction: 54
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Why?
     id: 0
-    emotion: 0
+    interaction: 28
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "\u2018Cause I\u2019m not sure you really understood what happened."
     id: 1
-    emotion: 0
+    interaction: 54
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I was there, I know what happened.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I don\u2019t think you really listened to what the medics said\u2026"
     id: 1
-    emotion: 0
+    interaction: 53
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'Well. '
     id: 0
-    emotion: 0
+    interaction: 32
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I had some broken ribs that punctured one of my lungs\u2026"
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: and I had to stay in the hospital for way too long
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'did i miss something? '
     id: 0
-    emotion: 0
+    interaction: 32
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I\u2019m not talking about the physical problems\u2026"
-    id: 0
-    emotion: 0
+    id: 1
+    interaction: 54
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Ugh, get to the point already!
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "\u2026"
     id: 0
-    emotion: 0
+    interaction: 39
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Please, I really don\u2019t want to talk about it."
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: We NEED to talk about it.
     id: 1
-    emotion: 0
+    interaction: 51
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Just because they diagnosed you with Bipolar Disorder doesn\u2019t-"
     id: 1
-    emotion: 0
+    interaction: 53
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I know.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "It\u2019s just-"
     id: 0
-    emotion: 0
+    interaction: 28
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "It\u2019s hard to face it."
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I\u2019m just worried about you\u2026"
     id: 1
-    emotion: 0
+    interaction: 54
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'Yes, she used to say that all the time. '
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "How annoying, isn\u2019t it? "
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I can\u2019t stand Bonnie and her savior complex."
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Don\u2019t worry Bon."
     id: 0
-    emotion: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I\u2019m seeing a psychiatrist and taking my medications."
     id: 0
-    emotion: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'Are you? '
     id: 1
-    emotion: 0
+    interaction: 53
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "You won\u2019t quit midway with the meds like you always do, right?"
     id: 1
-    emotion: 0
+    interaction: 53
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Trust me.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I\u2019m serious this time, "
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I want to get my life in order.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I really hope that\u2019s true. "
     id: 1
-    emotion: 0
+    interaction: 53
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Even if we aren\u2019t a couple anymore I still care about you\u2026"
     id: 1
-    emotion: 0
+    interaction: 52
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I want you to get better.
     id: 1
-    emotion: 0
+    interaction: 52
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I know.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Thank you Bon.
     id: 0
-    emotion: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I\u2019ll do my best."
     id: 0
-    emotion: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

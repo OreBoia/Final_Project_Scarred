@@ -21,13 +21,13 @@ MonoBehaviour:
     bubblePosition: 0
   - sentence: Good morning Jason,
     id: 4
-    interaction: 23
+    interaction: 63
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it\u2019s been a while!"
     id: 4
-    interaction: 23
+    interaction: 62
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
     bubblePosition: 0
   - sentence: Are you still writing for magazines and stuff?
     id: 4
-    interaction: 23
+    interaction: 64
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
     bubblePosition: 0
   - sentence: Ugh, I could never do a job like that.
     id: 4
-    interaction: 23
+    interaction: 62
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -75,13 +75,13 @@ MonoBehaviour:
     bubblePosition: 0
   - sentence: Ah, sorry for the chit chat,
     id: 4
-    interaction: 0
+    interaction: 63
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: here is your coffee!
     id: 4
-    interaction: 23
+    interaction: 58
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
     bubblePosition: 0
   - sentence: Of course!
     id: 4
-    interaction: 23
+    interaction: 65
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

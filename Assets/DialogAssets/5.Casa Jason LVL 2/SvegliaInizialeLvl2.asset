@@ -13,45 +13,21 @@ MonoBehaviour:
   m_Name: SvegliaInizialeLvl2
   m_EditorClassIdentifier: 
   strings:
-  - sentence: Dorme
+  - sentence: "Ugh, I hate this ringtone now\u2026"
     id: 0
     interaction: 21
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 0}
-    colorText: {r: 0, g: 0, b: 0, a: 0}
-    bubblePosition: 0
-  - sentence: Si sveglia
-    id: 0
-    interaction: 22
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 0}
-    colorText: {r: 0, g: 0, b: 0, a: 0}
-    bubblePosition: 0
-  - sentence: INIZIO MINIGIOCO
-    id: 0
-    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: "I should sort out this mess\u2026"
+  - sentence: I should change it later.
     id: 0
-    interaction: 0
+    interaction: 22
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: MINIGIOCO
     id: 0
     interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: "Ugh, I hate this ringtone now\u2026"
-    id: 0
-    interaction: 5
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: I should change it later.
-    id: 0
-    interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

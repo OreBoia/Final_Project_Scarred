@@ -15,19 +15,19 @@ MonoBehaviour:
   strings:
   - sentence: Sometimes me, Finn and Joe used to watch the clouds
     id: 0
-    interaction: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: and tried to guess what they seemed like,
     id: 0
-    interaction: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "It was so long ago\u2026"
     id: 0
-    interaction: 0
+    interaction: 32
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

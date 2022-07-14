@@ -15,22 +15,25 @@ MonoBehaviour:
   strings:
   - sentence: Are you sure you want to do it?
     id: 2
-    emotion: 0
+    interaction: 44
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: "I don\u2019t think you are strong enough to face what\u2019s behind
-      there."
+    bubblePosition: 0
+  - sentence: "I don\u2019t think you are strong enough to face what\u2019s there."
     id: 2
-    emotion: 0
+    interaction: 45
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I need to do it\u2026"
     id: 0
-    emotion: 0
+    interaction: 32
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I have to deal with this.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

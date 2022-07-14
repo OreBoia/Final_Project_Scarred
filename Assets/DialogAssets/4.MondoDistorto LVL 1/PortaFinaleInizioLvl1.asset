@@ -15,11 +15,13 @@ MonoBehaviour:
   strings:
   - sentence: "It seems locked\u2026"
     id: 0
-    emotion: 0
+    interaction: 35
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I think I can\u2019t go out this way."
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

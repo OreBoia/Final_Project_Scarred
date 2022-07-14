@@ -13,13 +13,7 @@ MonoBehaviour:
   m_Name: ScrivaniaLvl1
   m_EditorClassIdentifier: 
   strings:
-  - sentence: MINIGIOCO
-    id: 0
-    interaction: 0
-    colorFrame: {r: 0.7764706, g: 0.7764706, b: 0.7294118, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: 'Oh yes, there they are! '
+  - sentence: 'Oh yes, they should be here! '
     id: 0
     interaction: 10
     colorFrame: {r: 0.7735849, g: 0.7725589, b: 0.72614807, a: 1}
@@ -34,6 +28,12 @@ MonoBehaviour:
   - sentence: "I don\u2019t remember\u2026"
     id: 0
     interaction: 8
+    colorFrame: {r: 0.7764706, g: 0.7764706, b: 0.7294118, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: MINIGIOCO
+    id: 0
+    interaction: 0
     colorFrame: {r: 0.7764706, g: 0.7764706, b: 0.7294118, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

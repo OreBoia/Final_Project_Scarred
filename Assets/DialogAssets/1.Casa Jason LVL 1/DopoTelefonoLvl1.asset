@@ -13,15 +13,27 @@ MonoBehaviour:
   m_Name: DopoTelefonoLvl1
   m_EditorClassIdentifier: 
   strings:
-  - sentence: Oh right, I forgot about it.
+  - sentence: ...
     id: 0
-    interaction: 8
+    interaction: 18
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
+  - sentence: Oh right, I forgot about it.
+    id: 0
+    interaction: 19
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 1
+  - sentence: ...
+    id: 0
+    interaction: 17
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 1
   - sentence: "It\u2019s today."
     id: 0
     interaction: 8
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1

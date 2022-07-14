@@ -15,71 +15,49 @@ MonoBehaviour:
   strings:
   - sentence: Oh, I remember this sling!
     id: 0
-    emotion: 0
+    interaction: 35
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: We played with this a lot!
     id: 0
-    emotion: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: INIZIO MINIGIOCO
-    id: 0
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: Come on, Jason!
-    id: 2
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: How could you miss that?
-    id: 2
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: Hurry up!
-    id: 2
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: Go go go!
-    id: 2
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: FINE MINIGIOCO
-    id: 0
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: Those were really great times.
-    id: 0
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "We used to hang out almost everyday\u2026"
     id: 0
-    emotion: 0
+    interaction: 30
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I really miss that.
     id: 0
-    emotion: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Oh, come on!
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: You are really beating me down now.
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Stop talking!
     id: 2
-    emotion: 0
+    interaction: 46
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: MINIGIOCO
+    id: 0
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

@@ -15,50 +15,56 @@ MonoBehaviour:
   strings:
   - sentence: "This smell\u2026 "
     id: 0
-    interaction: 8
+    interaction: 32
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: I remember.
     id: 0
-    interaction: 8
+    interaction: 32
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Bonnie used to have these scented candles in her apartment all the
       time.
     id: 0
-    interaction: 8
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Also that night they were burning\u2026"
     id: 0
-    interaction: 11
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: MINIGIOCO
-    id: 0
-    interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: Why are you putting so much effort into doing this?
-    id: 2
-    interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: You know that nothing will change.
-    id: 2
-    interaction: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: ...
     id: 0
     interaction: 3
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Why are you putting so much effort into doing this?
+    id: 2
+    interaction: 45
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: You know that nothing will change.
+    id: 2
+    interaction: 45
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: ...
+    id: 0
+    interaction: 28
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: MINIGIOCO
+    id: 0
+    interaction: 28
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
