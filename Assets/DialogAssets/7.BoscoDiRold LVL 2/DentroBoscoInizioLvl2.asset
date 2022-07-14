@@ -16,18 +16,18 @@ MonoBehaviour:
   - sentence: I used to come here with my friends when we were younger.
     id: 0
     interaction: 7
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Oh, I\u2019m excited to be here again,"
     id: 0
     interaction: 7
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it\u2019s been so long!"
     id: 0
     interaction: 7
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

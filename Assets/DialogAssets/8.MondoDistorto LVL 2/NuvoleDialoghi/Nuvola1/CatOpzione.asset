@@ -15,61 +15,73 @@ MonoBehaviour:
   strings:
   - sentence: A cat.
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Ah yes!
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "It really reminds me of that old lady\u2019s cat\u2026"
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'You mean Princess, '
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "that was Iris\u2019 cat."
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'Yes, Iris! '
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: She used to give us sweets when we were kids.
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Ah right!
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74507225, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I forgot about it.
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: And her cat used to wander around the city.
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Oh yeah\u2026"
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: She loved cuddles.
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

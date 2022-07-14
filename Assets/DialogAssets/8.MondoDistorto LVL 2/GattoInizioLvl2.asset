@@ -16,13 +16,13 @@ MonoBehaviour:
   - sentence: Hey friend! Hey, hey!
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I\u2019m so happy you came to visit again!"
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Hello strange talking cat.
@@ -34,19 +34,19 @@ MonoBehaviour:
   - sentence: "Are you ready to explore? Today I\u2019m so full of energy!"
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I\u2019m so happy to have a little bit of company,"
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "even if it\u2019s you."
     id: 2
     interaction: 44
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026 Thank you?"
@@ -58,19 +58,19 @@ MonoBehaviour:
   - sentence: 'Oh, come on! '
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Don\u2019t be prickly!"
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I\u2019m just joking."
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "You are weird today\u2026"
@@ -82,31 +82,31 @@ MonoBehaviour:
   - sentence: Hahahaha
     id: 2
     interaction: 43
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: So, what are we doing today?
     id: 2
     interaction: 40
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Oh, we are in a forest!
     id: 2
     interaction: 44
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Do you think it\u2019s about the accident that happened here?"
     id: 2
     interaction: 44
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Like, you know, last time was that girlfriend of yours and now-
     id: 2
     interaction: 44
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Just shut up!

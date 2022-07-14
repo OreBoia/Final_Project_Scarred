@@ -15,11 +15,13 @@ MonoBehaviour:
   strings:
   - sentence: "She\u2019s ready for you,"
     id: 6
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7529412, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: please go ahead.
     id: 6
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7529412, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

@@ -37,14 +37,18 @@ public class FollowPlayer : MonoBehaviour
                 playerReference = PlayerScript.Instance.gameObject;
             }           
         }
-        Follow();
+
+        if (DialogController.Instance.dialogStatus == DialagoStatus.Init)
+        {
+            Follow();
+        }
     }
 
     private void Follow()
     {
         float distance = Vector2.Distance(rb.position, playerReference.GetComponent<Rigidbody2D>().position);
 
-        Debug.Log("DISTANCE: " + distance);
+        //Debug.Log("DISTANCE: " + distance);
 
         if (distance > minDistanceToMove)
         {
@@ -69,7 +73,9 @@ public class FollowPlayer : MonoBehaviour
         }
         else
         {
+          
             ChangeAnimation(idleAnimName);
+        
         }
     }
 

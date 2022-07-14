@@ -115,7 +115,17 @@ public class DialogController : MonoBehaviour
 
                 //set animation
                 Debug.Log("CHANGE ANIMATION DC in " + dialogAsset.strings[index].interaction.ToString());
-                PlayerScript.Instance.GetComponent<PlayerMovementTest>().ChangeAnimation(dialogAsset.strings[index].interaction.ToString());
+                if (sortedSpeakerList[dialogAsset.strings[index].id].gameObject.GetComponentInChildren<NPCScripts>())
+                {
+                    sortedSpeakerList[dialogAsset.strings[index].id].gameObject.GetComponentInChildren<NPCScripts>().ChangeAnimation(dialogAsset.strings[index].interaction.ToString());
+                }
+                else
+                {
+                    PlayerScript.Instance.GetComponent<PlayerMovementTest>().ChangeAnimation(dialogAsset.strings[index].interaction.ToString());
+                }
+
+                Debug.LogError("CHANGE ANIMATION DC in " + dialogAsset.strings[index].interaction.ToString());
+
 
                 StartCoroutine(coroutine);
             }

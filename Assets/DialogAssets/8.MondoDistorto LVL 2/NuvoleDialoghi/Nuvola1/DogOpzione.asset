@@ -15,46 +15,55 @@ MonoBehaviour:
   strings:
   - sentence: A dog.
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Mmmh, a dog.
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Yes, that cloud is really similar to Archie.
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Oh, you mean that small dog?
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: The one who stayed near the Caffeine Hub?
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Yeah, him!
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I remember him!
     id: 3
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I loved Archie.
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I\u2019ve always been a dog person."
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

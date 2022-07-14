@@ -16,18 +16,18 @@ MonoBehaviour:
   - sentence: "This is the clearing when we used to hang out\u2026"
     id: 0
     interaction: 7
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "It happened here\u2026"
     id: 0
     interaction: 8
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: I had forgotten it.
     id: 0
     interaction: 11
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1

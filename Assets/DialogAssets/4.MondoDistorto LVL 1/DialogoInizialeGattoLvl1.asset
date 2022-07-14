@@ -16,7 +16,7 @@ MonoBehaviour:
   - sentence: Jason?
     id: 2
     interaction: 44
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Wha\u2026"
@@ -46,13 +46,13 @@ MonoBehaviour:
   - sentence: "I really don\u2019t feel like explaining all of this to you. "
     id: 2
     interaction: 44
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Just go back from where you came and don\u2019t bother me."
     id: 2
     interaction: 45
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026 "
@@ -70,13 +70,13 @@ MonoBehaviour:
   - sentence: Uh, you are finally getting it!
     id: 2
     interaction: 45
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Nothing makes sense.
     id: 2
     interaction: 45
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026"

@@ -22,24 +22,24 @@ MonoBehaviour:
   - sentence: "Ah, you are Jason\u2026"
     id: 6
     interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7529412, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026"
     id: 6
     interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7529412, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Yes, here you are.
     id: 6
     interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7529412, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Please have a seat, she will be ready for you in a minute.
     id: 6
     interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7529412, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

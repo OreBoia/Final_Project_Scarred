@@ -18,17 +18,17 @@ MonoBehaviour:
     interaction: 23
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 0}
     colorText: {r: 0, g: 0, b: 0, a: 0}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Good morning Jason,
     id: 4
     interaction: 63
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.74515444, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it\u2019s been a while!"
     id: 4
     interaction: 62
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Oh, hi Katy!
@@ -36,17 +36,17 @@ MonoBehaviour:
     interaction: 9
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: I had a lot of work to do, so I sort of disappeared
     id: 0
     interaction: 9
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Are you still writing for magazines and stuff?
     id: 4
     interaction: 64
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Yes,
@@ -54,63 +54,69 @@ MonoBehaviour:
     interaction: 9
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: "sometimes it\u2019s a little more difficult to respect the deadlines."
     id: 0
     interaction: 9
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Ugh, I could never do a job like that.
     id: 4
     interaction: 62
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026"
     id: 4
     interaction: 23
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Ah, sorry for the chit chat,
     id: 4
     interaction: 63
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: here is your coffee!
     id: 4
-    interaction: 58
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 59
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: Oh, thank you.
+  - sentence: Oh,
+    id: 0
+    interaction: 62
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 1
+  - sentence: thank you.
     id: 0
     interaction: 9
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: "You remembered my usual order\u2026"
     id: 0
     interaction: 9
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Of course!
     id: 4
-    interaction: 65
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 63
+    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Beve
-    id: 4
+    id: 0
     interaction: 24
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 0}
     colorText: {r: 0, g: 0, b: 0, a: 0}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Si alza
-    id: 4
+    id: 0
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 0}
     colorText: {r: 0, g: 0, b: 0, a: 0}

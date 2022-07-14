@@ -46,19 +46,19 @@ MonoBehaviour:
   - sentence: "You can\u2019t do it. "
     id: 2
     interaction: 41
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: You are not good enough.
     id: 2
     interaction: 45
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Why don\u2019t you stop trying?"
     id: 2
     interaction: 45
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: ...

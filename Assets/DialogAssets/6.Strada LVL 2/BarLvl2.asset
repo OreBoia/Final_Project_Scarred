@@ -16,6 +16,6 @@ MonoBehaviour:
   - sentence: "With this breezee and the glowing sun it\u2019s perfect here."
     id: 0
     interaction: 2
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

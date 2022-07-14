@@ -40,24 +40,24 @@ MonoBehaviour:
   - sentence: Oh, come on!
     id: 2
     interaction: 46
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: You are really beating me down now.
     id: 2
     interaction: 46
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Stop talking!
     id: 2
     interaction: 46
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: MINIGIOCO
     id: 0
-    interaction: 0
+    interaction: 31
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

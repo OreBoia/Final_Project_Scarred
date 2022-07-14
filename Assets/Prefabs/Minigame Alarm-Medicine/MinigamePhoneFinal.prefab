@@ -852,7 +852,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4150785538050982477}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -886,6 +886,12 @@ MonoBehaviour:
   movementVector: {x: 0, y: 0}
   speed: 0.1
   inMovement: 0
+  walkAnimName: 
+  idleAnimName: 
+  skinDx: 
+  skinSx: 
+  flipValuePos: 0
+  flipValueneg: 0
 --- !u!1 &9090689390421503059
 GameObject:
   m_ObjectHideFlags: 0

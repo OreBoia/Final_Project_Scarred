@@ -15,86 +15,103 @@ MonoBehaviour:
   strings:
   - sentence: I don't know...
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "You don\u2019t know?"
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Come on!
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Maybe Jason feels weird talking about clouds\u2026"
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "I mean, we could be doing literally anything else\u2026"
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "No, it\u2019s just that I can\u2019t see anything."
     id: 0
-    emotion: 0
+    interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Ah!
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: 'See Joe? '
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "It\u2019s not weird at all!"
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "Ok, so I\u2019m the only one uncomfortable\u2026"
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Cool.
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Come on,
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: "we are fooling around\u2026"
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: We have nothing else to do
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: ...
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: I know that you are enjoying yourself, Finn.
     id: 8
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
   - sentence: Maybe a little bit.
     id: 3
-    emotion: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

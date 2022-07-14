@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: playerReference
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4490517072453190906, guid: 66078fb54e4b9aa48ab501566dcabc68, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 988025357
+      objectReference: {fileID: 0}
     - target: {fileID: 6528638518897078300, guid: 66078fb54e4b9aa48ab501566dcabc68, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
