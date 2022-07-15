@@ -31,9 +31,3 @@ MonoBehaviour:
     colorFrame: {r: 0.7764706, g: 0.7764706, b: 0.7294118, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: MINIGIOCO
-    id: 0
-    interaction: 0
-    colorFrame: {r: 0.7764706, g: 0.7764706, b: 0.7294118, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
