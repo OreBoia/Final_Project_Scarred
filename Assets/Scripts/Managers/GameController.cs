@@ -34,6 +34,14 @@ public class GameController : MonoBehaviour
         DontDestroyOnLoad(pauseCanvasObj);
     }
 
+    private void Update()
+    {
+        //if (Input.GetKey(KeyCode.N))
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //}    
+    }
+
     public void ReturnToNormalCam(GameObject minigameCamera, GameObject minigameObj)
     {
         defaultCamera.SetActive(true);

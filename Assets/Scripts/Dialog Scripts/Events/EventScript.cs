@@ -31,6 +31,14 @@ public class EventScript : MonoBehaviour
         GetComponentInChildren<SpriteRenderer>().sprite = intIconSprite;
     }
 
+    private void Update()
+    {
+        if (DialogController.Instance.dialogStatus != DialagoStatus.Init)
+        {
+            GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
+        }
+    }
+
     public void SwitchCam()
     {
         GameController.Instance.SwitchCam(minigameCamera, minigameObj);

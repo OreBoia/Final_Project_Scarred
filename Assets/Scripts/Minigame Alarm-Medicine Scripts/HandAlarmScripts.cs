@@ -9,11 +9,15 @@ public class HandAlarmScripts : IMovement
     Rigidbody2D rbHand;
     bool raycast;
     public RaycastHit raycastHitInfo;
+    public SpriteRenderer spHand;
+    public Sprite grabSprite;
+    public Sprite releaseSprite;
 
     private void Awake()
     {
         handCollider = GetComponent<BoxCollider2D>();
         rbHand = GetComponent<Rigidbody2D>();
+        spHand = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -25,6 +29,8 @@ public class HandAlarmScripts : IMovement
     private void OnGrab()
     {
         Debug.Log("GRAB");
+
+        spHand.sprite = grabSprite;
 
         Ray ray = new Ray(this.gameObject.transform.position + new Vector3(0, 3.5f, 0),
             new Vector3(0, 0, 1));
@@ -48,6 +54,8 @@ public class HandAlarmScripts : IMovement
     {
         Debug.Log("RELEASE");
         //Debug.Log("PAPER CHILD: " + GetComponentInChildren<Paper>().gameObject);
+
+        spHand.sprite = releaseSprite;
 
         if (GetComponentInChildren<Paper>() )
         {

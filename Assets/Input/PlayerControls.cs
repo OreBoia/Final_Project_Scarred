@@ -62,6 +62,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextSceneDebug"",
+                    ""type"": ""Button"",
+                    ""id"": ""8d20bde8-e94a-4cf2-85eb-66473c694369"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -194,6 +203,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d5b5747e-c504-4b24-9aaf-daa2583ff2a0"",
+                    ""path"": ""<Keyboard>/n"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""NextSceneDebug"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1365,6 +1385,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PressToMenu"",
+                    ""type"": ""Button"",
+                    ""id"": ""4adfdf41-435e-41d6-a757-4c9c2963d02b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -1510,6 +1539,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e2b67a6b-e92b-4123-9330-9bea9cb9b097"",
+                    ""path"": ""<Keyboard>/anyKey"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""PressToMenu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -1550,6 +1590,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_PlayerControl_Pause = m_PlayerControl.FindAction("Pause", throwIfNotFound: true);
         m_PlayerControl_Move = m_PlayerControl.FindAction("Move", throwIfNotFound: true);
         m_PlayerControl_Jump = m_PlayerControl.FindAction("Jump", throwIfNotFound: true);
+        m_PlayerControl_NextSceneDebug = m_PlayerControl.FindAction("NextSceneDebug", throwIfNotFound: true);
         // DialogControl
         m_DialogControl = asset.FindActionMap("DialogControl", throwIfNotFound: true);
         m_DialogControl_NextSentence = m_DialogControl.FindAction("NextSentence", throwIfNotFound: true);
@@ -1595,6 +1636,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_PauseController_Pause = m_PauseController.FindAction("Pause", throwIfNotFound: true);
         m_PauseController_Move = m_PauseController.FindAction("Move", throwIfNotFound: true);
         m_PauseController_Select = m_PauseController.FindAction("Select", throwIfNotFound: true);
+        m_PauseController_PressToMenu = m_PauseController.FindAction("PressToMenu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1658,6 +1700,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerControl_Pause;
     private readonly InputAction m_PlayerControl_Move;
     private readonly InputAction m_PlayerControl_Jump;
+    private readonly InputAction m_PlayerControl_NextSceneDebug;
     public struct PlayerControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -1666,6 +1709,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @Pause => m_Wrapper.m_PlayerControl_Pause;
         public InputAction @Move => m_Wrapper.m_PlayerControl_Move;
         public InputAction @Jump => m_Wrapper.m_PlayerControl_Jump;
+        public InputAction @NextSceneDebug => m_Wrapper.m_PlayerControl_NextSceneDebug;
         public InputActionMap Get() { return m_Wrapper.m_PlayerControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1687,6 +1731,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Jump.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnJump;
+                @NextSceneDebug.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnNextSceneDebug;
+                @NextSceneDebug.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnNextSceneDebug;
+                @NextSceneDebug.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnNextSceneDebug;
             }
             m_Wrapper.m_PlayerControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -1703,6 +1750,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @NextSceneDebug.started += instance.OnNextSceneDebug;
+                @NextSceneDebug.performed += instance.OnNextSceneDebug;
+                @NextSceneDebug.canceled += instance.OnNextSceneDebug;
             }
         }
     }
@@ -2088,6 +2138,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_PauseController_Pause;
     private readonly InputAction m_PauseController_Move;
     private readonly InputAction m_PauseController_Select;
+    private readonly InputAction m_PauseController_PressToMenu;
     public struct PauseControllerActions
     {
         private @PlayerControls m_Wrapper;
@@ -2095,6 +2146,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @Pause => m_Wrapper.m_PauseController_Pause;
         public InputAction @Move => m_Wrapper.m_PauseController_Move;
         public InputAction @Select => m_Wrapper.m_PauseController_Select;
+        public InputAction @PressToMenu => m_Wrapper.m_PauseController_PressToMenu;
         public InputActionMap Get() { return m_Wrapper.m_PauseController; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -2113,6 +2165,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Select.started -= m_Wrapper.m_PauseControllerActionsCallbackInterface.OnSelect;
                 @Select.performed -= m_Wrapper.m_PauseControllerActionsCallbackInterface.OnSelect;
                 @Select.canceled -= m_Wrapper.m_PauseControllerActionsCallbackInterface.OnSelect;
+                @PressToMenu.started -= m_Wrapper.m_PauseControllerActionsCallbackInterface.OnPressToMenu;
+                @PressToMenu.performed -= m_Wrapper.m_PauseControllerActionsCallbackInterface.OnPressToMenu;
+                @PressToMenu.canceled -= m_Wrapper.m_PauseControllerActionsCallbackInterface.OnPressToMenu;
             }
             m_Wrapper.m_PauseControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -2126,6 +2181,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Select.started += instance.OnSelect;
                 @Select.performed += instance.OnSelect;
                 @Select.canceled += instance.OnSelect;
+                @PressToMenu.started += instance.OnPressToMenu;
+                @PressToMenu.performed += instance.OnPressToMenu;
+                @PressToMenu.canceled += instance.OnPressToMenu;
             }
         }
     }
@@ -2154,6 +2212,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnPause(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnNextSceneDebug(InputAction.CallbackContext context);
     }
     public interface IDialogControlActions
     {
@@ -2206,5 +2265,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnPause(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
         void OnSelect(InputAction.CallbackContext context);
+        void OnPressToMenu(InputAction.CallbackContext context);
     }
 }

@@ -27,6 +27,18 @@ public class MinigameCandlesController : IPauseCommand
         raycastLayer = 1 << 8;
     }
 
+    private void Update()
+    {
+        actualCandle.ChangeSpriteSelected();
+        foreach (CandleScript c in selectedCandlesArray)
+        {
+            if (c != null)
+            {
+                c.ChangeSpriteSelected();
+            }
+        }
+    }
+
     private void OnSelectCandle()
     {
         Debug.Log("SELECT");
@@ -46,6 +58,14 @@ public class MinigameCandlesController : IPauseCommand
             {
                 selectedCandlesArray[i] = actualCandle;
                 break;
+            }
+        }
+
+        foreach (CandleScript c in selectedCandlesArray)
+        {
+            if (c != null)
+            {
+                c.ChangeSpriteSelected();
             }
         }
 
@@ -100,6 +120,17 @@ public class MinigameCandlesController : IPauseCommand
         if (candle != null)
         {
             actualCandle = collision.gameObject.GetComponent<CandleScript>();
+            actualCandle.ChangeSpriteSelected();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        CandleScript candle = collision.gameObject.GetComponent<CandleScript>();
+
+        if (candle != null)
+        {
+            candle.ChangeSpriteNotSelected();
         }
     }
 
@@ -114,7 +145,11 @@ public class MinigameCandlesController : IPauseCommand
             {
                 selectedCandlesArray[0].SwapCandlePosition(saveActualPos1);
                 selectedCandlesArray[1].SwapCandlePosition(saveActualPos0);
+                //selectedCandlesArray[0].ChangeSpriteNotSelected();
+                //selectedCandlesArray[1].ChangeSpriteNotSelected();
             }
+
+            ClearArray();
         }
     }
 
@@ -146,7 +181,14 @@ public class MinigameCandlesController : IPauseCommand
 
     private void ClearArray()
     {
+        CandleScript temp;
+
+        temp = selectedCandlesArray[0];
         selectedCandlesArray[0] = null;
+        temp.ChangeSpriteNotSelected();
+
+        temp = selectedCandlesArray[1];
         selectedCandlesArray[1] = null;
+        temp.ChangeSpriteNotSelected();
     }
 }

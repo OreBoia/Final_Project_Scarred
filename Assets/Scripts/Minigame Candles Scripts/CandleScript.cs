@@ -15,12 +15,19 @@ public class CandleScript : MonoBehaviour
     public string[] actualPosNameSplit;
     public string[] rightPosNameSplit;
 
+    SpriteRenderer sp;
+    public Sprite spriteNotSelected;
+    public Sprite spriteSelected;
+
     private void Start()
     {
         actualPosNameSplit = new string[2];
         rightPosNameSplit = new string[2];
 
         rb = GetComponent<Rigidbody2D>();
+        sp = GetComponent<SpriteRenderer>();
+
+        sp.sprite = spriteNotSelected;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -49,5 +56,15 @@ public class CandleScript : MonoBehaviour
     public void SwapCandlePosition(Vector2 nextPosition)
     {
         rb.MovePosition(nextPosition);
+    }
+
+    public void ChangeSpriteSelected()
+    {
+        sp.sprite = spriteSelected;
+    } 
+    
+    public void ChangeSpriteNotSelected()
+    {
+        sp.sprite = spriteNotSelected;
     }
 }

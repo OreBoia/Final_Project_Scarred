@@ -16,6 +16,9 @@ public class PauseSelectorScript : MonoBehaviour
     private GameObject prevButton;
     private GameObject actualButton;
 
+    public bool pressToMenu;
+    public GameObject initMenu;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,7 +27,7 @@ public class PauseSelectorScript : MonoBehaviour
     private void Awake()
     {
         actualButton = defaultButton;
-        actualButton.GetComponent<Image>().color = Color.red;
+        //actualButton.GetComponent<Image>().color = Color.red;
 
         this.transform.position = actualButton.gameObject.transform.position;
     }
@@ -48,7 +51,7 @@ public class PauseSelectorScript : MonoBehaviour
             prevButton = actualButton;
             actualButton = raycast.collider.gameObject;
 
-            ChangeColorButton();
+            //ChangeColorButton();
 
             this.transform.position = raycast.collider.gameObject.transform.position;
         } 
@@ -56,25 +59,35 @@ public class PauseSelectorScript : MonoBehaviour
 
     private void ChangeColorButton()
     {
-        prevButton.GetComponent<Image>().color = Color.white;
-        actualButton.GetComponent<Image>().color = Color.red;
+        //prevButton.GetComponent<Image>().color = Color.white;
+        //actualButton.GetComponent<Image>().color = Color.red;
     }
 
     private void OnSelect()
     {
-        switch (actualButton.gameObject.name)
+        if (!pressToMenu)
         {
-            case "ReturnButton":
-                GameController.Instance.OnPause();
-                break;
-            case "ExitButton":
-                Application.Quit();
-                break;
-            case "StartButton":
-                SceneManager.LoadScene("LVL1CasaJason");
-                break;
+            switch (actualButton.gameObject.name)
+            {
+                case "ReturnButton":
+                    GameController.Instance.OnPause();
+                    break;
+                case "ExitButton":
+                    Application.Quit();
+                    break;
+                case "StartButton":
+                    SceneManager.LoadScene("LVL1CasaJason");
+                    break;
+            }
         }
     }
 
-
+    private void OnPressToMenu()
+    {
+        if (pressToMenu)
+        {
+            Destroy(initMenu);
+            pressToMenu = false;
+        }
+    }
 }
