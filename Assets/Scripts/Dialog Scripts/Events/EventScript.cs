@@ -33,10 +33,10 @@ public class EventScript : MonoBehaviour
 
     private void Update()
     {
-        if (DialogController.Instance.dialogStatus != DialagoStatus.Init)
-        {
-            GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
-        }
+        //if (DialogController.Instance.dialogStatus != DialagoStatus.Init)
+        //{
+        //    GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
+        //}
     }
 
     public void SwitchCam()

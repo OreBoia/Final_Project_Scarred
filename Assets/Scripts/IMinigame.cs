@@ -8,10 +8,10 @@ public class IMinigame : MonoBehaviour
     {
         if (PlayerScript.Instance.eventObj != null)
         {
+            GameController.Instance.ReduceCanExitCounter();
+
             GameController.Instance.ReturnToNormalCam(PlayerScript.Instance.eventObj.minigameCamera,
             PlayerScript.Instance.eventObj.minigameObj);
-
-            GameController.Instance.ReduceCanExitCounter();
 
             Destroy(PlayerScript.Instance.eventObj.gameObject);
         } 
