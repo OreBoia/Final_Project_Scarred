@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: Si siede
-    id: 4
+    id: 0
     interaction: 23
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 0}
     colorText: {r: 0, g: 0, b: 0, a: 0}
