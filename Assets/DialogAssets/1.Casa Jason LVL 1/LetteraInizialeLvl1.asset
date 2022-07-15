@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
+  m_Name: LetteraInizialeLvl1
+  m_EditorClassIdentifier: 
+  strings:
+  - sentence: "                        17 February 2011 Dear,                                        
+      I feel so dumb, I\u2019m trying this new thing. She said this could help me,
+      but I\u2019m not so sure. I don\u2019t know where I found the will to write
+      this letter, I think I was just bored. I don\u2019t feel like this will lead
+      anywhere, but here I am, writing...   So, back on track, I have to share my
+      day with you..."
+    id: 0
+    interaction: 0
+    colorFrame: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

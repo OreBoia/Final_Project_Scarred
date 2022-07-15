@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: d4cbf6d11facff440abafc8d0532aa0f, type: 2}
     - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: newSceneName
-      value: LVL2MondoDistorto
+      value: 9LVL2Bosco
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: intIconSprite

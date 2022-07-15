@@ -817,7 +817,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: b92ece25eb93cd7489a0c225eabd055b, type: 2}
     - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: newSceneName
-      value: LVL1StudioPsi
+      value: 4LVL1StudioPsi
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137130, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: intIconSprite
