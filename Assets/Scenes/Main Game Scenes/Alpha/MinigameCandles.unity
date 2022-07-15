@@ -319,6 +319,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3403375795323665450, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3403375795376214350, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3403375796174134752, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3403375796819054047, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3403375797260850871, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5987376435155390914, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
       propertyPath: m_Name
       value: MinigameCandlesPrefab
@@ -337,7 +357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7705554614248362063, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -33.596962
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7705554614248362063, guid: 2bd54267e3710144bbe997ee3f732fa7, type: 3}
       propertyPath: m_LocalRotation.w

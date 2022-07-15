@@ -69,7 +69,13 @@ public enum Interaction {
     katy_int_felice,
     katy_int_normale,
     katy_int_triste,
-    katy_occhiolino
+    katy_occhiolino,
+    Iris_idle,
+    Iris_interazione,
+    Iris_interazioneFelice,
+    Iris_interazioneTriste,
+    Rec_idle,
+    Rec_interazione
 
 }
 public enum BubblePosition { Right, Left}

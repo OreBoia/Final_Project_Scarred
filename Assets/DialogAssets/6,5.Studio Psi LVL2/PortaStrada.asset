@@ -10,18 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
-  m_Name: SvegliaInizialeLvl2
+  m_Name: PortaStrada
   m_EditorClassIdentifier: 
   strings:
-  - sentence: "Ugh, I hate this ringtone now\u2026"
+  - sentence: I should go have a walk outside!
     id: 0
-    interaction: 21
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: I should change it later.
-    id: 0
-    interaction: 22
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    interaction: 2
+    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
