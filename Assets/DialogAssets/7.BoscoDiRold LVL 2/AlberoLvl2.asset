@@ -16,31 +16,31 @@ MonoBehaviour:
   - sentence: Oh, I remember this, poor tree.
     id: 0
     interaction: 8
-    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: 'We always carved nonsense on it. '
     id: 0
     interaction: 7
-    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026"
     id: 0
     interaction: 2
-    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: I kind of want to do it once again.
     id: 0
     interaction: 7
-    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Oh, luckily there is still the cutter in the hollow part of the tree!
     id: 0
     interaction: 10
-    colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: MINIGIOCO

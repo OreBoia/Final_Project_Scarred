@@ -426,7 +426,7 @@ MonoBehaviour:
   flipValueneg: 0
   spHand: {fileID: 0}
   grabSprite: {fileID: 21300000, guid: 1fde66f448d70c443a0d19ae7102573f, type: 3}
-  releaseSprite: {fileID: 0}
+  releaseSprite: {fileID: 21300000, guid: ad9b65a64eae99244bea151ea2bc921d, type: 3}
 --- !u!1 &3658935958723914786
 GameObject:
   m_ObjectHideFlags: 0

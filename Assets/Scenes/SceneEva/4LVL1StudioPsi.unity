@@ -490,7 +490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116999234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.95, y: 1.6604003, z: 0}
+  m_LocalPosition: {x: 33.09, y: 1.6604003, z: 0}
   m_LocalScale: {x: 2.3914883, y: 21.578873, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -557,8 +557,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -1.3827423, y: 1.8732407}
       - {x: -1.3850849, y: -3.09585}
-      - {x: 0.27251613, y: -3.086141}
-      - {x: 0.25869107, y: 1.8769426}
+      - {x: -0.2534783, y: -3.0223842}
+      - {x: -0.2354244, y: 1.8769426}
 --- !u!212 &177749321
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3151,15 +3151,15 @@ SpriteRenderer:
   m_SortingLayerID: -741727569
   m_SortingLayer: 4
   m_SortingOrder: 10
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5a8e41945ea63d140a15d69ae90cfded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.5, y: 1.48}
+  m_Size: {x: 1.86, y: 1.53}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1356639411
@@ -3170,8 +3170,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356639409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8799995, y: 3.3999999, z: 0}
-  m_LocalScale: {x: 1.9900999, y: 1.9900999, z: 1.9900999}
+  m_LocalPosition: {x: -1.15, y: 1.61, z: 0}
+  m_LocalScale: {x: 0.8012142, y: 0.8012142, z: 0.8012142}
   m_Children: []
   m_Father: {fileID: 177749322}
   m_RootOrder: 0
@@ -3888,11 +3888,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137132, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_Radius
-      value: 2.1907258
+      value: 1.7977185
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137132, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_Offset.x
-      value: 1.9217515
+      value: 2.3147588
       objectReference: {fileID: 0}
     - target: {fileID: 6707746549251137132, guid: 48a06779e2e4a8345a4d0a67438042a0, type: 3}
       propertyPath: m_Offset.y
