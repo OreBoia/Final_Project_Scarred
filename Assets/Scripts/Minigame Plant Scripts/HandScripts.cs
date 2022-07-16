@@ -5,10 +5,24 @@ public class HandScripts : IMovement
     [SerializeField]
     LeafScripts leafObj;
 
+    [SerializeField]
+    SpriteRenderer spHand;
+    public Sprite normalSprite;
+    public Sprite leafInHandSprite;
+
+    private void Awake()
+    {
+        spHand = this.GetComponent<SpriteRenderer>();
+    }
+
     private void Update()
     {
         MovePlayer();
+        IsMove();
+    }
 
+    private void IsMove()
+    {
         if (movementVector == Vector2.zero)
         {
             inMovement = false;

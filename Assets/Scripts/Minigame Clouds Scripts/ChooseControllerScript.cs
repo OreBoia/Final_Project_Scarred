@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,11 +13,12 @@ public class ChooseControllerScript : IMinigame
     public int assetIndex;
 
     public Image cloudToChange;
-    public Sprite[] newClouds;
+    public GameObject[] newClouds;
 
     private void Start()
     {
         ChangeSelectionColorFrame(Color.blue);
+        
     }
 
     private void Update()
@@ -28,6 +30,12 @@ public class ChooseControllerScript : IMinigame
             Debug.Log("NEW CLOUD");
         }
 
+        //chooseObjects[assetIndex].gameObject.transform.GetComponentInChildren<TextMeshProUGUI>().text = chooseObjects[assetIndex].GetComponent<DialogAssetChoose>().dialog[assetIndex].name;
+        //for (int i = 0; i < chooseObjects[assetIndex].gameObject.transform.childCount; i++)
+        //{
+        //    Debug.Log(chooseObjects[assetIndex].gameObject.transform.GetChild(i));
+        //}
+        
     }
 
     public void OnMovePositionRight()
@@ -96,7 +104,16 @@ public class ChooseControllerScript : IMinigame
         if (assetIndex < 2)
         {
             assetIndex++;
-            cloudToChange.sprite = newClouds[assetIndex];
+            newClouds[assetIndex].SetActive(true);
+            foreach (GameObject co in chooseObjects)
+            {
+                co.gameObject.GetComponentInChildren<TextMeshProUGUI>().text =
+                    co.GetComponent<DialogAssetChoose>().dialog[assetIndex].name;
+            }
+        }
+        else
+        {
+            ExitMinigame();
         }      
     }
 }

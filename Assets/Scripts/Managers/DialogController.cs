@@ -124,7 +124,7 @@ public class DialogController : MonoBehaviour
                     PlayerScript.Instance.GetComponent<PlayerMovementTest>().ChangeAnimation(dialogAsset.strings[index].interaction.ToString());
                 }
 
-                Debug.LogError("CHANGE ANIMATION DC in " + dialogAsset.strings[index].interaction.ToString());
+                //Debug.LogError("CHANGE ANIMATION DC in " + dialogAsset.strings[index].interaction.ToString());
 
 
                 StartCoroutine(coroutine);

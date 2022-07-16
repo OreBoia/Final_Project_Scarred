@@ -10,7 +10,9 @@ public class IMovement : MonoBehaviour
     public Vector2 movementVector;
     public float speed;
     public bool inMovement;
-    private Rigidbody2D rigidbody2d;
+    
+    public Rigidbody2D rigidbody2d;
+
     private SkeletonAnimation sp;
     public string walkAnimName;
     public string idleAnimName;
@@ -19,7 +21,8 @@ public class IMovement : MonoBehaviour
     public int flipValuePos;
     public int flipValueneg;
 
-    PlayerInput playerInput;
+
+    public PlayerInput playerInput;
 
     //[SerializeField]
     //string scheme;
