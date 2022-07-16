@@ -310,6 +310,7 @@ MonoBehaviour:
     m_Actions: []
     m_Bindings: []
   scheme: 
+  aMap: 
   autoswitch: 0
 --- !u!114 &639015296798053228
 MonoBehaviour:
@@ -412,12 +413,14 @@ MonoBehaviour:
   movementVector: {x: 0, y: 0}
   speed: 0.12
   inMovement: 0
+  rigidbody2d: {fileID: 0}
   walkAnimName: jason_camminata
   idleAnimName: jason_idle
   skinDx: verso dx
   skinSx: verso sx
   flipValuePos: 1
   flipValueneg: -1
+  playerInput: {fileID: 0}
 --- !u!1 &7978662902528527728
 GameObject:
   m_ObjectHideFlags: 0

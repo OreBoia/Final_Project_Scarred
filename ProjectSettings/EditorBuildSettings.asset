@@ -33,13 +33,16 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneEva/8LVL2Strada.unity
     guid: d94446373c27f5f4a8bb0ce41a7813a2
   - enabled: 1
-    path: Assets/Scenes/SceneEva/8LVL2StudioPsi.unity
+    path: Assets/Scenes/SceneEva/9LVL2StudioPsi.unity
     guid: 97da33c86ac84dc4f86d4cd10a740690
   - enabled: 1
-    path: Assets/Scenes/SceneEva/9LVL2Bosco.unity
+    path: Assets/Scenes/SceneEva/10LVL2Strada.unity
+    guid: e56b3eb6ba22c9d419067a7ad1083d0c
+  - enabled: 1
+    path: Assets/Scenes/SceneEva/11LVL2Bosco.unity
     guid: 26685b7a12b6f4b4b8511048324ee3a5
   - enabled: 1
-    path: Assets/Scenes/SceneEva/10LVL2MondoDistorto.unity
+    path: Assets/Scenes/SceneEva/12LVL2MondoDistorto.unity
     guid: 724a7c812b2946548b7cd0151e737c4b
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: c066d7f4fb55ddc47a5263572473dffa, type: 2}
