@@ -15,7 +15,7 @@ MonoBehaviour:
   strings:
   - sentence: Oh, today we feel at full force, right Jason?
     id: 5
-    interaction: 0
+    interaction: 69
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -24,28 +24,28 @@ MonoBehaviour:
     interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: how do you feel today?
     id: 0
     interaction: 7
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: "You know, I\u2019m old and I always have some physical affliction."
     id: 5
-    interaction: 0
+    interaction: 70
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: What about you?
     id: 5
-    interaction: 0
+    interaction: 68
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Your eyes seem tired, are you sleeping properly?
     id: 5
-    interaction: 0
+    interaction: 70
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -54,28 +54,28 @@ MonoBehaviour:
     interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: "As I already said, it\u2019s called Horner syndrome"
     id: 0
     interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: I can't get rid of it by sleeping.
     id: 0
     interaction: 8
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Oh, poor boy.
     id: 5
-    interaction: 0
+    interaction: 70
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: What is it?
     id: 5
-    interaction: 0
+    interaction: 70
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
@@ -84,22 +84,22 @@ MonoBehaviour:
     interaction: 10
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Sorry, now I really have to go.
     id: 0
     interaction: 5
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Have a nice day, goodbye!
     id: 0
     interaction: 7
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Goodbye Jason, remember to sleep well!
     id: 5
-    interaction: 0
+    interaction: 69
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.73333335, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
