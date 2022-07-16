@@ -38,13 +38,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: She gave you this stupid bunny because she felt pity for you,
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: ' like everyone you have ever met.'
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -56,19 +56,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Try to remember.
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: You were crying because some kids broke your old keychain,
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "she saw you and you were so pathetic that\u2026"
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

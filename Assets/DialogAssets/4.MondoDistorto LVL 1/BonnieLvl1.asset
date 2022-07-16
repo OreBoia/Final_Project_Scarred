@@ -32,13 +32,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: Hello Jace.
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.75340676, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: How are you lately?
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.7735849, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -68,7 +68,7 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: Jason-
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -86,49 +86,49 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: Selfish?
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "You dare say that I\u2019m selfish?"
-    id: 1
+    id: 12
     interaction: 51
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I\u2019ve been by your side for a long time,"
-    id: 1
+    id: 12
     interaction: 51
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "ever since your first episode\u2026"
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "But you didn\u2019t want to be helped,"
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "you didn\u2019t even want to acknowledge it!"
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I couldn\u2019t stand it anymore,"
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I couldn\u2019t\u2026"
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -140,31 +140,31 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: I was right by your side,
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "but you didn\u2019t see me until I left you!"
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I loved you\u2026"
-    id: 1
+    id: 12
     interaction: 51
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: I really did everything I could for this relationship,
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: and for you.
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -176,19 +176,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: I really did my best.
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: But not only were you self destructive,
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "you were destroying me as well\u2026"
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -212,19 +212,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: I know that.
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: And I also understand your resentment for how it ended.
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Just stop only blaming me for what happened.
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -236,19 +236,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "Don\u2019t listen to her!"
-    id: 2
+    id: 10
     interaction: 46
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: She hurt you.
-    id: 2
+    id: 10
     interaction: 46
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: She never cared about you.
-    id: 2
+    id: 10
     interaction: 46
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -272,14 +272,14 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "Yeah\u2026"
-    id: 1
+    id: 12
     interaction: 53
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I just don\u2019t want the last period to affect the great memories
       we had."
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -297,13 +297,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: Me too.
-    id: 1
+    id: 12
     interaction: 52
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: We just were never meant to be together.
-    id: 1
+    id: 12
     interaction: 54
     colorFrame: {r: 0.7529412, g: 0.7254902, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

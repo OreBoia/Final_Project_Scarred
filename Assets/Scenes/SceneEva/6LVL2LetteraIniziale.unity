@@ -315,6 +315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogControllerObj
       objectReference: {fileID: 0}
+    - target: {fileID: 8747326552150597975, guid: 2fba78fde32818744ba969723687ff98, type: 3}
+      propertyPath: typingSpeed
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 8747326552150597976, guid: 2fba78fde32818744ba969723687ff98, type: 3}
       propertyPath: m_RootOrder
       value: 4

@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: Well, Jason.
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: How are you feeling?
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -38,13 +38,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: 'You already know. '
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "You really are stubborn, aren\u2019t you?"
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -68,13 +68,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: 'Calm down, friend. '
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Stop being so defensive everytime.
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -98,13 +98,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "Ugh, don\u2019t play the victim card."
-    id: 2
+    id: 10
     interaction: 46
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: You just never accepted me.
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -122,13 +122,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: 'Nevermind. '
-    id: 2
+    id: 10
     interaction: 45
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Please, continue your whining towards your illness.
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -164,19 +164,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: Fair?
-    id: 2
+    id: 10
     interaction: 46
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Your illness is a part of you,
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it didn\u2019t just happen to you."
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -194,19 +194,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "Don\u2019t twist my words, Jason."
-    id: 2
+    id: 10
     interaction: 46
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: 'You can manage to live a normal life, '
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: you need to understand that.
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -267,25 +267,25 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "That\u2019s because you let your illness control you. "
-    id: 2
+    id: 10
     interaction: 45
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "I\u2019m not saying that it\u2019s easy to manage it,"
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: " it\u2019s completely normal to fail and relapse sometimes,"
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "but I\u2019m sure you can learn how to."
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -303,25 +303,25 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: Yes.
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Just remember, it\u2019s a part of you, not all of you. "
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Mental illnesses are illnesses like the physical ones in a way
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: and they must be taken care of.
-    id: 2
+    id: 10
     interaction: 44
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -345,7 +345,7 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "\u2026"
-    id: 2
+    id: 10
     interaction: 38
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -363,13 +363,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "I\u2019ll always be with you, "
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: whether you like it or not.
-    id: 2
+    id: 10
     interaction: 43
     colorFrame: {r: 0.9607843, g: 0.60784316, b: 0.54509807, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

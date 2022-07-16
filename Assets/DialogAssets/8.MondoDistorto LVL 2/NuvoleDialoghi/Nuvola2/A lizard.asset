@@ -14,67 +14,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: A lizard.
-    id: 1
+    id: 13
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: I see it too,
-    id: 3
+    id: 14
     interaction: 0
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it\u2019s a big, fat lizard!"
-    id: 3
+    id: 14
     interaction: 0
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "No, it\u2019s a dragon."
-    id: 8
+    id: 15
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Oh, it could be a dragon-
-    id: 1
+    id: 13
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "It\u2019s a cloud, Joe."
-    id: 3
+    id: 14
     interaction: 0
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "You can\u2019t decide what it is if we see something else"
-    id: 3
+    id: 14
     interaction: 0
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Well a lizard is a dragon who didn't believe in himself enough,
-    id: 8
+    id: 15
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "so it\u2019s still a dragon, "
-    id: 8
+    id: 15
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: even if you see a lizard-
-    id: 8
+    id: 15
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "Guys, come on\u2026"
-    id: 1
+    id: 13
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
