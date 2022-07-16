@@ -10,78 +10,108 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
-  m_Name: CatOpzione
+  m_Name: A vinyl
   m_EditorClassIdentifier: 
   strings:
-  - sentence: A cat.
+  - sentence: A vinyl!
     id: 1
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: Ah yes!
+  - sentence: A vinyl!
     id: 3
     interaction: 0
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: "It really reminds me of that old lady\u2019s cat\u2026"
-    id: 3
-    interaction: 0
-    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: 'You mean Princess, '
-    id: 1
-    interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: "that was Iris\u2019 cat."
-    id: 1
-    interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: 'Yes, Iris! '
-    id: 3
-    interaction: 0
-    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: She used to give us sweets when we were kids.
-    id: 3
-    interaction: 0
-    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: Ah right!
-    id: 8
-    interaction: 0
-    colorFrame: {r: 0.77254903, g: 0.74507225, b: 0.7254902, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
-  - sentence: I forgot about it.
+  - sentence: A vinyl!
     id: 8
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: And her cat used to wander around the city.
+  - sentence: We are not obsessed with vintage, uh?
+    id: 8
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: "Definitely not\u2026"
+    id: 3
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Hahaha
+    id: 3
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Which vinyl is it for you?
     id: 1
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: "Oh yeah\u2026"
+  - sentence: "It\u2019s obviously God Save The Queen by Sex Pistols."
     id: 8
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
-  - sentence: She loved cuddles.
+  - sentence: "Ah, that\u2019s really rare! "
+    id: 3
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: "So for me it\u2019s Love Me Do by the Beatles!"
+    id: 3
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Another gem.
+    id: 8
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: "They are so expensive\u2026"
     id: 8
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: And for you, Jason?
+    id: 3
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: For me that cloud is the Ummagumma vinyl by Pink Floyd.
+    id: 1
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: 'Well, '
+    id: 8
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: we should say that our choices are pretty representative.
+    id: 8
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Oh my god, you are right!
+    id: 3
+    interaction: 0
+    colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

@@ -29,7 +29,7 @@ public class DialogController : MonoBehaviour
     Dictionary<int, GameObject> speakerList =
     new Dictionary<int, GameObject>();
 
-    Dictionary<int, GameObject> sortedSpeakerList = 
+    public Dictionary<int, GameObject> sortedSpeakerList = 
         new Dictionary<int, GameObject>();
 
     //COROUTINE 
@@ -198,6 +198,8 @@ public class DialogController : MonoBehaviour
         {
             previusId = dialogAsset.strings[index].id;
         }
+
+        PrintSpeakers();
     }
 
     //ATTIVA IL CANCAS DELLO SPEAKER E IMPOSTA IL COLORE DEL FRAME
@@ -272,12 +274,17 @@ public class DialogController : MonoBehaviour
 
     private void SwitchControlAtEnd()
     {
-        sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().
-            SwitchCurrentActionMap(sortedSpeakerList[0].gameObject.GetComponent<DialogScript>().actionMapNameSwitch);
-
-        if (sortedSpeakerList[0].gameObject.GetComponent<ChooseControllerScript>() != null)
+        if (sortedSpeakerList.ContainsKey(1))
         {
-            sortedSpeakerList[0].gameObject.GetComponent<ChooseControllerScript>().EndOfDialogChanges();
+            if (sortedSpeakerList[1].gameObject.GetComponent<ChooseControllerScript>() != null)
+            {
+                sortedSpeakerList[1].gameObject.GetComponent<ChooseControllerScript>().EndOfDialogChanges();
+            }
+        }
+        else
+        {
+            sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().
+                SwitchCurrentActionMap(sortedSpeakerList[0].gameObject.GetComponent<DialogScript>().actionMapNameSwitch);
         }
     }
 

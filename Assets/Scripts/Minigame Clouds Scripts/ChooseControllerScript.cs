@@ -113,6 +113,9 @@ public class ChooseControllerScript : IMinigame
         }
         else
         {
+            DialogController.Instance.sortedSpeakerList.Remove(1);
+
+
             ExitMinigame();
         }      
     }
