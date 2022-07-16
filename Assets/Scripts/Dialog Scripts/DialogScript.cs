@@ -14,8 +14,11 @@ public class DialogScript : MonoBehaviour
 
     [SerializeField]
     InputActionMap inputActions;
+
     [SerializeField]
     string scheme;
+    [SerializeField]
+    string aMap;
     [SerializeField]
     bool autoswitch;
 
@@ -26,7 +29,12 @@ public class DialogScript : MonoBehaviour
 
     private void Update()
     {
-        scheme = playerInput.currentControlScheme;
+        //scheme = playerInput.currentControlScheme;
+        if (playerInput != null)
+        {
+            aMap = playerInput.currentActionMap.name;
+        }
+        
     }
 
     public void OnEventInteraction()

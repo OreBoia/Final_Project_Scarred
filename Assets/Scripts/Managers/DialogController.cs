@@ -274,18 +274,33 @@ public class DialogController : MonoBehaviour
 
     private void SwitchControlAtEnd()
     {
-        if (sortedSpeakerList.ContainsKey(1))
+
+        foreach (KeyValuePair<int, GameObject> entry in sortedSpeakerList)
         {
-            if (sortedSpeakerList[1].gameObject.GetComponent<ChooseControllerScript>() != null)
+            if (entry.Key == 1)
             {
                 sortedSpeakerList[1].gameObject.GetComponent<ChooseControllerScript>().EndOfDialogChanges();
+                sortedSpeakerList[1].gameObject.GetComponent<PlayerInput>().
+                SwitchCurrentActionMap(sortedSpeakerList[1].gameObject.GetComponent<DialogScript>().actionMapNameSwitch);
+                return;
             }
         }
-        else
-        {
-            sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().
+
+        sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().
                 SwitchCurrentActionMap(sortedSpeakerList[0].gameObject.GetComponent<DialogScript>().actionMapNameSwitch);
-        }
+
+        //if (sortedSpeakerList.ContainsKey(1))
+        //{
+        //    if (sortedSpeakerList[1].gameObject.GetComponent<ChooseControllerScript>() != null)
+        //    {
+        //        sortedSpeakerList[1].gameObject.GetComponent<ChooseControllerScript>().EndOfDialogChanges();
+        //    }
+        //}
+        //else
+        //{
+        //    sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().
+        //        SwitchCurrentActionMap(sortedSpeakerList[0].gameObject.GetComponent<DialogScript>().actionMapNameSwitch);
+        //}
     }
 
     public void SetPosition(GameObject setPoint)
