@@ -6,7 +6,10 @@ public abstract class IPauseCommand : MonoBehaviour
 {
     private void OnPause()
     {
-        GameController.Instance.OnPause();
+        if (this.gameObject.GetComponent<PlayerScript>())
+        {
+            GameController.Instance.OnPause();
+        }  
     }
 
     public void OnReturnToPlayer()

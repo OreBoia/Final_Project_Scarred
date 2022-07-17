@@ -9,6 +9,12 @@ public class SetCanExitCounter : MonoBehaviour
 
     private void Update()
     {
+        if (canExitCounter == 0)
+        {
+            GameController.Instance.canExit = true;
+            Destroy(this.gameObject);
+        }
+
         if (GameController.Instance)
         {
             GameController.Instance.SetCanExitCounter(canExitCounter);

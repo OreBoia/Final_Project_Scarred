@@ -10,7 +10,7 @@ public class MinigameCandlesController : IPauseCommand
     public CandleScript actualCandle;
 
     public List<GameObject> candlesList = new List<GameObject>();
-    public CandleScript[] selectedCandlesArray;
+    public CandleScript[] selectedCandlesArray = new CandleScript[2];
 
     Rigidbody2D rigidbodyController;
 
@@ -20,7 +20,7 @@ public class MinigameCandlesController : IPauseCommand
 
     private void Start()
     {
-        selectedCandlesArray = new CandleScript[2];
+        //selectedCandlesArray = new CandleScript[2];
 
         rigidbodyController = GetComponent<Rigidbody2D>();
 
@@ -29,7 +29,7 @@ public class MinigameCandlesController : IPauseCommand
 
     private void Update()
     {
-        actualCandle.ChangeSpriteSelected();
+        //actualCandle.ChangeSpriteSelected();
         foreach (CandleScript c in selectedCandlesArray)
         {
             if (c != null)
@@ -42,6 +42,9 @@ public class MinigameCandlesController : IPauseCommand
     private void OnSelectCandle()
     {
         Debug.Log("SELECT");
+
+        
+
         SelectedCandlesFullCheck();
 
         for (int i = 0; i < 2; i++)
@@ -185,10 +188,16 @@ public class MinigameCandlesController : IPauseCommand
 
         temp = selectedCandlesArray[0];
         selectedCandlesArray[0] = null;
-        temp.ChangeSpriteNotSelected();
-
+        if (temp != null)
+        {
+            temp.ChangeSpriteNotSelected();
+        }
+        
         temp = selectedCandlesArray[1];
         selectedCandlesArray[1] = null;
-        temp.ChangeSpriteNotSelected();
+        if (temp != null)
+        {
+            temp.ChangeSpriteNotSelected();
+        }
     }
 }

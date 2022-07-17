@@ -23,7 +23,6 @@ public class HandAlarmScripts : IMovement
     private void Update()
     {
         MovePlayer();
-
     }
 
     private void OnGrab()
@@ -44,6 +43,11 @@ public class HandAlarmScripts : IMovement
             if (raycastHitInfo.collider.gameObject.GetComponent<Paper>() ||
             raycastHitInfo.collider.gameObject.GetComponent<Swipe>())
             {
+                if (raycastHitInfo.collider.gameObject.transform.parent.gameObject.name == "MedObj")
+                {
+                    MinigameAlarmController.Instance.ExitMinigame();
+                }
+
                 raycastHitInfo.collider.gameObject.transform.parent =
                      this.gameObject.transform;
             }

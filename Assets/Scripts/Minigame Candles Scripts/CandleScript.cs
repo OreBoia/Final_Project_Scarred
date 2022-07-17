@@ -19,6 +19,11 @@ public class CandleScript : MonoBehaviour
     public Sprite spriteNotSelected;
     public Sprite spriteSelected;
 
+    private void Awake()
+    {
+        sp = GetComponent<SpriteRenderer>();
+    }
+
     private void Start()
     {
         actualPosNameSplit = new string[2];
@@ -60,7 +65,9 @@ public class CandleScript : MonoBehaviour
 
     public void ChangeSpriteSelected()
     {
+        
         sp.sprite = spriteSelected;
+        
     } 
     
     public void ChangeSpriteNotSelected()

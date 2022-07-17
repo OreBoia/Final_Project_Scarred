@@ -30,10 +30,10 @@ public class DialogScript : MonoBehaviour
     private void Update()
     {
         //scheme = playerInput.currentControlScheme;
-        if (playerInput != null)
-        {
-            aMap = playerInput.currentActionMap.name;
-        }
+        //if (playerInput != null)
+        //{
+        //    aMap = playerInput.currentActionMap.name;
+        //}
         
     }
 
