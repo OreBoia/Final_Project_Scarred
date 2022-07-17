@@ -20,13 +20,13 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "Oh, Jason! Hi\u2026"
-    id: 3
+    id: 11
     interaction: 56
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.7564052, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "It\u2019s been a while\u2026"
-    id: 3
+    id: 11
     interaction: 56
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -44,7 +44,7 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: I hate that we drifted apart.
-    id: 3
+    id: 11
     interaction: 58
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -68,7 +68,7 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: And you wanted to buy the vinyl that I was saving, yes.
-    id: 3
+    id: 11
     interaction: 56
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -86,31 +86,31 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: 'Ah, come on! '
-    id: 3
+    id: 11
     interaction: 56
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: You were drunk for the first time,
-    id: 3
+    id: 11
     interaction: 57
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it\u2019s normal to be reckless! "
-    id: 3
+    id: 11
     interaction: 57
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: 'We were just worried about the injuries. '
-    id: 3
+    id: 11
     interaction: 57
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Luckily the paramedics arrived fast enough!
-    id: 3
+    id: 11
     interaction: 58
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -128,19 +128,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "Oh, so that\u2019s the reason you disappeared!"
-    id: 3
+    id: 11
     interaction: 58
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: We were worried about you,
-    id: 3
+    id: 11
     interaction: 57
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "but you didn\u2019t answer any of our calls and texts."
-    id: 3
+    id: 11
     interaction: 58
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -158,7 +158,7 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: So what was the reason?
-    id: 3
+    id: 11
     interaction: 57
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
@@ -170,19 +170,19 @@ MonoBehaviour:
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: "We\u2019ve been friends since forever."
-    id: 3
+    id: 11
     interaction: 56
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Remember that when you feel like telling me,
-    id: 3
+    id: 11
     interaction: 56
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: I will be ready to listen.
-    id: 3
+    id: 11
     interaction: 57
     colorFrame: {r: 0.7254902, g: 0.77254903, b: 0.75686276, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

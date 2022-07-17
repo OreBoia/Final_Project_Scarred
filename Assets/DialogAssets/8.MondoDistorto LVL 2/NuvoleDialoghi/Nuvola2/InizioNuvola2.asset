@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: Oh, that cloud is massive!
-    id: 8
+    id: 15
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: What do you think it is?
-    id: 8
+    id: 15
     interaction: 0
     colorFrame: {r: 0.77254903, g: 0.74509805, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

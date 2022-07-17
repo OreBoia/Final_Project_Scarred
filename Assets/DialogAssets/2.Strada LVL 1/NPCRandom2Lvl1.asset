@@ -18,16 +18,16 @@ MonoBehaviour:
     interaction: 2
     colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: ...
     id: 0
     interaction: 0
     colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: "Yeah, even I wouldn\u2019t believe me."
     id: 0
     interaction: 3
     colorFrame: {r: 0.7254902, g: 0.7490196, b: 0.77254903, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1

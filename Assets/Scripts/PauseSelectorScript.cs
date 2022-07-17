@@ -76,7 +76,7 @@ public class PauseSelectorScript : MonoBehaviour
                     Application.Quit();
                     break;
                 case "StartButton":
-                    SceneManager.LoadScene("2LVL1CasaJason");
+                    SceneManager.LoadScene("1LVL1Letterainiziale");
                     break;
             }
         }

@@ -16,7 +16,7 @@ MonoBehaviour:
   - sentence: ...
     id: 4
     interaction: 59
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.74509805, a: 1}
+    colorFrame: {r: 0.8396226, g: 0.73268956, b: 0.777245, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 1
   - sentence: ...
@@ -24,17 +24,17 @@ MonoBehaviour:
     interaction: 23
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Good morning Jason,
     id: 4
     interaction: 63
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.74515444, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "it\u2019s been a while!"
     id: 4
     interaction: 62
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Oh, hi Katy!
@@ -52,7 +52,7 @@ MonoBehaviour:
   - sentence: Are you still writing for magazines and stuff?
     id: 4
     interaction: 64
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Yes,
@@ -70,19 +70,19 @@ MonoBehaviour:
   - sentence: Ugh, I could never do a job like that.
     id: 4
     interaction: 65
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: "\u2026"
     id: 4
     interaction: 23
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: Ah, sorry for the chit chat,
     id: 4
     interaction: 63
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: here is your coffee!
@@ -112,7 +112,7 @@ MonoBehaviour:
   - sentence: Of course!
     id: 4
     interaction: 63
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.7490196, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0
   - sentence: ...
@@ -130,6 +130,6 @@ MonoBehaviour:
   - sentence: Bye bye!
     id: 4
     interaction: 66
-    colorFrame: {r: 0.77254903, g: 0.7254902, b: 0.74509805, a: 1}
+    colorFrame: {r: 0.84313726, g: 0.73333335, b: 0.78039217, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
     bubblePosition: 0

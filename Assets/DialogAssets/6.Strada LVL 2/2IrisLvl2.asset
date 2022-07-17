@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
+  m_Name: 2IrisLvl2
+  m_EditorClassIdentifier: 
+  strings:
+  - sentence: Ah, you came back!
+    id: 5
+    interaction: 69
+    colorFrame: {r: 0.5254902, g: 0.5647059, b: 0.49019608, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Did you forget something at home?
+    id: 5
+    interaction: 68
+    colorFrame: {r: 0.5254902, g: 0.5647059, b: 0.49019608, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Uh, no. I'm just having a walk.
+    id: 0
+    interaction: 7
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: 'That''s great! '
+    id: 5
+    interaction: 69
+    colorFrame: {r: 0.5254902, g: 0.5647059, b: 0.49019608, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Yeah...
+    id: 0
+    interaction: 7
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: ....
+    id: 0
+    interaction: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: ....
+    id: 5
+    interaction: 67
+    colorFrame: {r: 0.5254902, g: 0.5647059, b: 0.49019608, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Sorry, now I have to go. Have a good day!
+    id: 0
+    interaction: 7
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0
+  - sentence: Oh, you too Jason! Goodbye.
+    id: 5
+    interaction: 69
+    colorFrame: {r: 0.5254902, g: 0.5647059, b: 0.49019608, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+    bubblePosition: 0

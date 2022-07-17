@@ -9,14 +9,14 @@ public class SetCanExitCounter : MonoBehaviour
 
     private void Update()
     {
-        if (canExitCounter == 0)
-        {
-            GameController.Instance.canExit = true;
-            Destroy(this.gameObject);
-        }
 
         if (GameController.Instance)
         {
+            if (canExitCounter == 0)
+            {
+                GameController.Instance.canExit = true;
+                Destroy(this.gameObject);
+            }
             GameController.Instance.SetCanExitCounter(canExitCounter);
             GameController.Instance.defaultCamera = FindObjectOfType<CinemachineBrain>().gameObject;
             Destroy(this.gameObject);
