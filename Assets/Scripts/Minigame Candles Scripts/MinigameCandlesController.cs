@@ -29,7 +29,7 @@ public class MinigameCandlesController : IPauseCommand
 
     private void Update()
     {
-        actualCandle.ChangeSpriteSelected();
+        //actualCandle.ChangeSpriteSelected();
         foreach (CandleScript c in selectedCandlesArray)
         {
             if (c != null)

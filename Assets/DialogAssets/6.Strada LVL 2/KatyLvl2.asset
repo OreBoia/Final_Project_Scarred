@@ -24,7 +24,7 @@ MonoBehaviour:
     interaction: 23
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
-    bubblePosition: 0
+    bubblePosition: 1
   - sentence: Good morning Jason,
     id: 4
     interaction: 63
