@@ -689,7 +689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8747326552150597974, guid: 2fba78fde32818744ba969723687ff98, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8747326552150597975, guid: 2fba78fde32818744ba969723687ff98, type: 3}
       propertyPath: typingSpeed
@@ -1205,7 +1205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5696514247723241809, guid: f5ee9af4feb10774383a6d6aa93cb42c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5696514247723241815, guid: f5ee9af4feb10774383a6d6aa93cb42c, type: 3}
       propertyPath: m_RootOrder
