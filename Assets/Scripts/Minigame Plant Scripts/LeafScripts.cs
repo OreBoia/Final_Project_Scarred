@@ -5,7 +5,7 @@ using UnityEngine;
 public class LeafScripts : MonoBehaviour
 {
     public int leafLife = 5;
-    float timeToDeath = 3;
+    float timeToDeath = 1f;
 
     Rigidbody2D rb;
 

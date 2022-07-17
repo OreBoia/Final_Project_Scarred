@@ -15,6 +15,17 @@ public class EyeScript : MonoBehaviour
 
     public bool isWatching = false;
 
+    public float percentage;
+    public float percentageTimeToEnd;
+
+    Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        percentageTimeToEnd = randomTimeStartWatching * percentage / 100;
+    }
+
     private void Update()
     {
 
@@ -35,13 +46,49 @@ public class EyeScript : MonoBehaviour
             if (randomTimeWatching <= 0f)
             {
                 randomTimeStartWatching = Random.Range(startWatchingTimeMin, startWatchingTimeMax);
+                percentageTimeToEnd = randomTimeStartWatching * percentage / 100;
+                //Debug.Log(percentageTimeToEnd);
                 SetIsWatching();
             }
         }
+
+        SetAnimation();
+    }
+
+    private void SetAnimation()
+    {
+        //animator.SetBool("isWatching", isWatching);
+
+        if (!MinigameLeafController.Instance.endMinigame)
+        {
+            if (isWatching)
+            {
+                animator.SetTrigger("Beccato");
+            }
+            else if (randomTimeStartWatching > percentageTimeToEnd)
+            {
+                animator.SetTrigger("Distratta");
+            }
+            else if (randomTimeStartWatching < percentageTimeToEnd)
+            {
+                animator.SetTrigger("Triggered");
+            }
+        }
+        else
+        {
+            animator.SetTrigger("Beccato");
+        }
+
+        //if (randomTimeStartWatching < percentageTimeToEnd)
+        //{
+        //    Debug.Log("WARN");
+        //}
     }
 
     private void SetIsWatching()
     {
         isWatching = !isWatching;
+
+        //animator.SetBool("isWatching", isWatching);
     }
 }

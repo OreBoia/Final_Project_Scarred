@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 4376940783679985875}
   - component: {fileID: 4376940783679985874}
   - component: {fileID: 4376940783679985876}
+  - component: {fileID: 6070541275178418532}
   m_Layer: 0
   m_Name: EyeObj
   m_TagString: Untagged
@@ -313,6 +314,25 @@ MonoBehaviour:
   WatchingTimeMin: 1
   WatchingTimeMax: 2
   isWatching: 0
+--- !u!95 &6070541275178418532
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376940783679985873}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d3643a53a0998d4ba7da8dda1b7bb90, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7832006695476048484
 GameObject:
   m_ObjectHideFlags: 0

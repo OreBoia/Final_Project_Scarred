@@ -19,6 +19,11 @@ public class MinigameLeafController : IMinigame
         }
     }
 
+    private void Start()
+    {
+        _instance = this;
+    }
+
     private void Update()
     {
         isWatching = eye.isWatching;
